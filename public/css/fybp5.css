@@ -1,0 +1,16 @@
+
+    #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-image: url(//demo.spyropress.com/themeforest/eagleeyes/wp-content/themes/wp-eagleeyes/assets/fancybox/fancybox_sprite.png);
+    }
+    .fancybox-close {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 8040;
+    }
+    #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-image: url(//demo.spyropress.com/themeforest/eagleeyes/wp-content/themes/wp-eagleeyes/assets/fancybox/fancybox_sprite@2x.png);
+    background-size: 44px 152px; }

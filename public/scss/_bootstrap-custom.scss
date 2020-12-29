@@ -1,0 +1,15 @@
+// custom variables and override bootstrap variables
+
+$body-bg: #fff;
+
+$muli: 'muli', sans-serif;
+
+$navbar-default-bg:                 transparent !default;
+$navbar-default-border:             transparent !default;
+$navbar-margin-bottom:              inherit !default;
+
+$grid-gutter-width:         		30px !default;
+// Large screen / wide desktop
+$container-large-desktop:      		(1170px + $grid-gutter-width) !default;
+//** For `$screen-lg-min` and up.
+$container-lg:                 		$container-large-desktop !default;
