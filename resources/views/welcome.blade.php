@@ -589,7 +589,7 @@
                     <tbody>
                     <tr>
                       <td align="center">
-                        <img src="{{$service->icon}}" alt="icon" width="70" height="70">
+                        <img src="{{URL::to('/').'/'.$service->icon}}" alt="icon" width="70" height="70">
                       </td>
                     </tr>
                     <tr>
@@ -646,10 +646,11 @@
                                 </tr>
                                 <tr>
                                   <td>
-                                    <table class="MOON3-3" width="25%" align="left" border="0" cellpadding="0" cellspacing="0" style="     background-color: #191919; ">
-                                      <tbody><tr>
+                                    <table class="MOON3-3" width="25%" align="left" border="0" cellpadding="0" cellspacing="0" style="background-color: {{$statistics[0]->color}}; ">
+                                      <tbody>
+                                      <tr>
                                         <td align="center">
-                                          <img src="user_uploads/image_uploads/2018/12/20/kjQyO6r2YU4Ae3cnJWDl9LxoHGpIh1CaBzES5gvMZ7qbTNtXKi0PdFs8.jpg" alt="img" class="img1" style="width: 100%;">
+                                          <img src="{{URL::to('/').'/'.$statistics[0]->image}}" alt="img" class="img1" style="width: 100%;">
                                         </td>
                                       </tr>
                                       <tr>
@@ -658,7 +659,7 @@
                                       </tr>
                                       <tr>
                                         <td align="center">
-                                          <img src="user_uploads/image_uploads/2018/12/20/1GSDy2rQfRhNXtk3HKPZxBLT8WsJYdpF.png" alt="icon" width="40" height="40">
+                                          <i class="fa {{$statistics[0]->icon}}" style="color: #fff;font-size: 40px;" alt="icon" width="40" height="40"></i>
                                         </td>
                                       </tr>
                                       <tr>
@@ -667,7 +668,7 @@
                                       </tr>
                                       <tr>
                                         <td data-color="Feature01" data-size="Feature01" align="left" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 50px; font-weight: 800; color: rgb(249, 176, 62); line-height: 34.2px; text-align: center;">
-                                          120                   
+                                          {{$statistics[0]->number}}
                                         </td>
                                       </tr>
                                       <tr>
@@ -676,7 +677,7 @@
                                       </tr>
                                       <tr>
                                         <td data-color="Content" data-size="Content" align="left" style="font-family: &quot;Open Sans&quot;, sans-serif; font-size: 12px; font-weight: 400; color: rgb(255, 255, 255); line-height: 20.4px; text-align: center;">
-                                          PROJECTS AT WORK 
+                                          {{$statistics[0]->title}}
                                         </td>
                                       </tr>
                                       <tr>
@@ -684,14 +685,14 @@
                                         </td>
                                       </tr>
                                     </tbody></table>
-                                    <table class="MOON3-3" width="25%" align="left" border="0" cellpadding="0" cellspacing="0">
+                                    <table class="MOON3-3" width="25%" align="left" border="0" cellpadding="0" cellspacing="0"  style="     background-color: {{$statistics[1]->color}}; ">
                                       <tbody><tr>
                                         <td height="30">
                                         </td>
                                       </tr>
                                       <tr>
                                         <td align="center">
-                                          <img src="user_uploads/image_uploads/2016/09/28/x7JKLRVprCP9zMbfFnkjgXW45GDv0cqw.png" alt="icon" width="40" height="40">
+                                          <i class="fa {{$statistics[1]->icon}}" style="color: #000;font-size: 40px;" alt="icon" width="40" height="40"></i>
                                         </td>
                                       </tr>
                                       <tr>
@@ -700,7 +701,7 @@
                                       </tr>
                                       <tr>
                                         <td data-color="Feature01" data-size="Feature01" align="left" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 50px; font-weight: 800; color: rgb(249, 176, 62); line-height: 34.2px; text-align: center;">
-                                          320                   
+                                          {{$statistics[1]->number}}                   
                                         </td>
                                       </tr>
                                       <tr>
@@ -709,7 +710,7 @@
                                       </tr>
                                       <tr>
                                         <td data-color="Contenta" data-size="Content" align="left" style="font-family: &quot;Open Sans&quot;, sans-serif; font-size: 12px; font-weight: 400; color: rgb(41, 41, 41); line-height: 20.4px; text-align: center;">
-                                          COMPLETED PROJECTS 
+                                        {{$statistics[1]->title}} 
                                         </td>
                                       </tr>
                                       <tr>
@@ -718,15 +719,15 @@
                                       </tr>
                                       <tr>
                                         <td align="center">
-                                          <img src="user_uploads/image_uploads/2018/12/20/lspXb7oNKJBvVFzIDj5Eqh6dw2GkxLcMuUYCetPQOZfWT94rym8RgaSH.jpg" alt="img" class="img1" style="width: 100%;">
+                                          <img src="{{URL::to('/').'/'.$statistics[1]->image}}" alt="img" class="img1" style="width: 100%;">
                                         </td>
                                       </tr>
                                     </tbody></table>
                                     <!-- SPACE -->
-                                    <table class="MOON3-3" width="25%" align="left" border="0" cellpadding="0" cellspacing="0" style="     background-color: #540d6e; ">
+                                    <table class="MOON3-3" width="25%" align="left" border="0" cellpadding="0" cellspacing="0" style="     background-color: {{$statistics[2]->color}}; ">
                                       <tbody><tr>
                                         <td align="center">
-                                          <img src="user_uploads/image_uploads/2018/12/20/uqZv9m0odt72PbhxRfj6LTEcJWyI4OYr8BHsFVX3zNgDA1MwkC5KpGln.jpg" alt="img" class="img1" style="width: 100%;">
+                                          <img src="{{URL::to('/').'/'.$statistics[2]->image}}" alt="img" class="img1" style="width: 100%;">
                                         </td>
                                       </tr>
                                       <tr>
@@ -735,7 +736,7 @@
                                       </tr>
                                       <tr>
                                         <td align="center">
-                                          <img src="user_uploads/image_uploads/2018/12/20/N1HglVYQt7BrxGhm9bFTjW8fSdP4k0vq.png" alt="icon" width="40" height="40">
+                                          <i class="fa {{$statistics[2]->icon}}" style="color: #fff;font-size: 40px;" alt="icon" width="40" height="40"> </i>
                                         </td>
                                       </tr>
                                       <tr>
@@ -744,7 +745,7 @@
                                       </tr>
                                       <tr>
                                         <td data-color="Feature01" data-size="Feature01" align="left" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 50px; font-weight: 800; color: rgb(249, 176, 62); line-height: 34.2px; text-align: center;">
-                                          280                   
+                                          {{$statistics[2]->number}}                   
                                         </td>
                                       </tr>
                                       <tr>
@@ -753,7 +754,7 @@
                                       </tr>
                                       <tr>
                                         <td data-color="Content" data-size="Content" align="left" style="font-family: &quot;Open Sans&quot;, sans-serif; font-size: 12px; font-weight: 400; color: rgb(255, 255, 255); line-height: 20.4px; text-align: center;">
-                                          HAPPY CLIENTS&nbsp;
+                                          {{$statistics[2]->title}}
                                         </td>
                                       </tr>
                                       <tr>
@@ -762,14 +763,14 @@
                                       </tr>
                                     </tbody></table>
                                     <!-- SPACE -->
-                                    <table class="MOON3-3" width="25%" align="left" border="0" cellpadding="0" cellspacing="0" style="     background-color: #ee4266; ">
+                                    <table class="MOON3-3" width="25%" align="left" border="0" cellpadding="0" cellspacing="0" style="     background-color: {{$statistics[3]->color}}; ">
                                       <tbody><tr>
                                         <td height="30">
                                         </td>
                                       </tr>
                                       <tr>
                                         <td align="center">
-                                          <img src="user_uploads/image_uploads/2018/12/20/6WzvFJBLTKyMVfbltmYGdj5Pnp4H8k29.png" alt="icon" width="40" height="40">
+                                          <i class="fa {{$statistics[3]->icon}}" style="color: #fff;font-size: 40px;" alt="icon" width="40" height="40"></i>
                                         </td>
                                       </tr>
                                       <tr>
@@ -778,7 +779,7 @@
                                       </tr>
                                       <tr>
                                         <td data-color="Feature01" data-size="Feature01" align="left" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 50px; font-weight: 800; color: rgb(249, 176, 62); line-height: 34.2px; text-align: center;">
-                                          140                   
+                                          {{$statistics[3]->number}}                   
                                         </td>
                                       </tr>
                                       <tr>
@@ -787,7 +788,7 @@
                                       </tr>
                                       <tr>
                                         <td data-color="Content" data-size="Content" align="left" style="font-family: &quot;Open Sans&quot;, sans-serif; font-size: 12px; font-weight: 400; color: rgb(255, 255, 255); line-height: 20.4px; text-align: center;">
-                                          PERSPECTIVE CLIENTS&nbsp;
+                                          {{$statistics[3]->title}}
                                         </td>
                                       </tr>
                                       <tr>
@@ -796,7 +797,7 @@
                                       </tr>
                                       <tr>
                                         <td align="center">
-                                          <img src="user_uploads/image_uploads/2018/12/20/3bVuEtBLyFW6NaJDY9dp2OnkGAx58XZwvHSmjlzQIPrKUMgRio4eT7c0.jpg" alt="img" class="img1" style="width: 100%;">
+                                          <img src="{{URL::to('/').'/'.$statistics[3]->image}}" alt="img" class="img1" style="width: 100%;">
                                         </td>
                                       </tr>
                                     </tbody></table>
@@ -830,7 +831,7 @@
           <td align="center">
             <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
               <tbody><tr>
-                <td data-bgcolor="Main" data-bg="Background G1" align="center" valign="top" bgcolor="#333" background="user_uploads/image_uploads/2018/09/18/T31ytmWphfIz728LPquHKZJRSlFDsrjdUeAXkG5vB96No0iQwCcYga4E.png" style="background-image: url('user_uploads/image_uploads/2018/09/18/T31ytmWphfIz728LPquHKZJRSlFDsrjdUeAXkG5vB96No0iQwCcYga4E.png');background-color: rgb(52, 152, 219);background-size: cover;background-position: 50% 50%;/* box-shadow: rgba(16, 17, 19, 0.18) 0px 0px 48px -17px; */">
+                <td data-bgcolor="Main" data-bg="Background G1" align="center" valign="top" bgcolor="#333" background="{{URL::to('/').'/'.$section_4->background_image}}" style="background-image: url('{{URL::to('/').'/'.$section_4->background_image}}');background-color: {{$section_4->background_color}};background-size: cover;background-position: 50% 50%;/* box-shadow: rgba(16, 17, 19, 0.18) 0px 0px 48px -17px; */">
                   <table class="Moon-600" width="90%" align="center" border="0" cellpadding="0" cellspacing="0" style="     max-width: 900px; ">
                     <tbody><tr>
                       <td height="150">
@@ -842,7 +843,7 @@
                           <tbody><tr>
                             <td data-color="Title j2" data-size="Title j2" align="left" style="font-family: Montserrat, sans-serif; font-size: 36px; font-weight: 900; color: #ba2c2f; letter-spacing: 2px; line-height: 36px;">
                               <multiline>
-                                UNIQUE&amp; BEAUTIFU&nbsp;
+                                {{$section_4->title}}
                               </multiline>
                             </td>
                           </tr>
@@ -853,7 +854,7 @@
                           <tr>
                             <td data-color="Content f2" data-size="Content f2" style="font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 400; color: rgb(65, 74, 81); line-height: 23.8px;">
                               <multiline>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec nisi sed diam ultricies tempus. Nullam et ligula sodales, blandit arcu sit amet, varius felis.                           
+                                {{$section_4->text}}                           
                               </multiline>
                             </td>
                           </tr>
@@ -863,17 +864,18 @@
                           </tr>
                           <tr>
                             <td>
+                            <a href="{{$section_4->button_link}}" style="color: rgb(52, 152, 219); font-size: 16px; line-height: 27.2px; font-weight: 400;" data-color="Text Link" data-size="Main Text3">
                               <table class="Moon-inner" width="150" border="0" align="left" cellpadding="0" cellspacing="0">
                                 <tbody><tr>
                                   <td data-link-style="text-decoration:none; color:#FFFFFF;" data-link-color="Text Link" align="center" height="30" style="border-radius:20px; border: 1px solid #7f8c8d;/* padding-left: 10px; *//* padding-right: 10px; */font-family: 'Open Sans', Arial, sans-serif; color: #131211; font-size:14px; ">
-                                    <a href="#" style="color: rgb(52, 152, 219); font-size: 16px; line-height: 27.2px; font-weight: 400;" data-color="Text Link" data-size="Main Text3">
-                                    </a>
                                     <singleline>
-                                      see more                                
+                                    {{$section_4->button_text}}                                
                                     </singleline>
-                                  </td>
+                                  </td>                                    
                                 </tr>
-                              </tbody></table>
+                              </tbody>     
+                              </table>                             
+                              </a>
                             </td>
                           </tr>
                         </tbody></table>
@@ -914,9 +916,7 @@
                                 <tr align="left">
                                   <td data-link-style="text-decoration:none; color:#414a51;" data-link-color="Feature Title Link" data-color="Feature Feature Title" data-size="Feature Header" style="font-family: 'Open Sans', Arial, sans-serif;color: rgb(65, 74, 81);font-size: 22px;font-weight: 700;">
                                     <singleline>
-                                      PHOTOGRAPHY.                                     
-                                      <br>
-                                      CINEMATOGRAPHY. MOTION.                                                                   
+                                      {{$section_5->title}}                                                             
                                     </singleline>
                                   </td>
                                 </tr>
@@ -929,7 +929,7 @@
                                 <tr align="left">
                                   <td data-link-style="text-decoration:none; color:#c86e6e;" data-link-color="Content Link" data-color="Content" data-size="Content" style="font-family: &quot;Open sans&quot;, Arial, sans-serif; color: rgb(153, 153, 153); font-size: 14px; line-height: 23px;">
                                     <multiline>
-                                      Objectively fabricate emerging comm unit ies without intINtive collabo ration and id ea sharing. Globally unleash market.                                                                    
+                                    {{$section_5->text}}                                                                       
                                     </multiline>
                                   </td>
                                 </tr>
@@ -941,17 +941,16 @@
                                 <!--link-->
                                 <tr align="left">
                                   <td>
+                                  <a href="{{$section_5->button_link}}" style="color: rgb(52, 152, 219);font-size: 12px;line-height: 15.1px;font-weight: 400;" data-color="Text Link" data-size="Main Text3">
                                     <table align="left" border="0" cellpadding="0" cellspacing="0" width="160">
                                       <tbody><tr>
                                         <td data-link-style="text-decoration:none; color:#FFFFFF;" data-link-color="Text Link" style="border-radius: 21px;padding-left: 5px;padding-right: 5px;font-family: 'Open Sans', Arial, sans-serif;color: #FFFFFF;font-size: 12px;background-color: #ba2c2f;-webkit-box-shadow: 0px 11px 45px -10px #ba2c2f;" align="center" height="40">
-                                          <a href="#" style="color: rgb(52, 152, 219);font-size: 12px;line-height: 15.1px;font-weight: 400;" data-color="Text Link" data-size="Main Text3">
-                                          </a>
                                           <multiline>
-                                            KNOW&nbsp;MORE +                                                                               
+                                            {{$section_5->button_text}}                                                                                 
                                           </multiline>
                                         </td>
                                       </tr>
-                                    </tbody></table>
+                                    </tbody></table></a>
                                   </td>
                                 </tr>
                                 <tr>
@@ -969,7 +968,7 @@
                   <table align="right" class="moon3-3" width="50%" border="0" cellspacing="0" cellpadding="0">
                     <tbody><tr>
                       <td align="center" style="line-height:0px;" valign="middle">
-                        <img style="display:block;line-height:0px;font-size:0px;border:0px;height: 450px;width: 310px;" class="59image_target" src="user_uploads/image_uploads/2018/07/23/PB3h8RcySZFlbmjkqG0T9tv5r2CQHx6X.png" alt="59img" width="260" height="200">
+                        <img style="display:block;line-height:0px;font-size:0px;border:0px;height: 450px;width: 310px;" class="59image_target" src="{{URL::to('/').'/'.$section_5->image}}" alt="59img" width="260" height="200">
                       </td>
                     </tr>
                   </tbody></table>
@@ -985,12 +984,12 @@
             </table>
           </td>
         </tr>
-      </tbody></table><table data-module="module-9_80562" mc:repeatable="layout-9" mc:hideable="9" mc:variant="Content-9" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="position: relative; opacity: 1; z-index: 0; max-width: 900px; top: 0px; left: 0px;">
+      </tbody></table><table data-module="module-9_80562" mc:repeatable="layout-9" mc:hideable="9" mc:variant="Content-9" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="position: relative; opacity: 1; z-index: 0; max-width: 1000px; top: 0px; left: 0px;">
         <tbody><tr>
           <td align="center">
             <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
               <tbody><tr>
-                <td data-bgcolor="Main 1" align="center" valign="top" bgcolor="#333" style="background-color: rgb(255, 255, 255); background-size: cover; background-position: 50% 50%;">
+                <td data-bgcolor="Main 1" align="center" valign="top" bgcolor="#333" style="background-color: #000; background-size: cover; background-position: 50% 50%;">
                   <table class="MOON-600" width="600" align="center" border="0" cellpadding="0" cellspacing="0">
                     <tbody><tr>
                       <td height="80">
@@ -1000,7 +999,7 @@
                     <tr>
                       <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link1" data-color="Headline1" data-size="Headline1" align="center" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: #ba2c2f; font-size: 16px; font-weight: 400; line-height: 27.2px;">
                         <multiline>
-                          Make your own With Mirror                                            
+                          {{$section_6->title}}                                            
                         </multiline>
                       </td>
                     </tr>
@@ -1011,9 +1010,9 @@
                     </tr>
                     <!-- content -->
                     <tr>
-                      <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link2" data-color="Mains Text2" data-size="Main Text2" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(127, 127, 127); font-size: 21px; font-weight: 100; line-height: 35.7px;">
+                      <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link2" data-color="Mains Text2" data-size="Main Text2" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: #fff; font-size: 21px; font-weight: 100; line-height: 35.7px;">
                         <multiline>
-                          We craft experiences for the web, helping brands speak human in a digital world.                                           
+                        {{$section_6->text}}                                        
                         </multiline>
                       </td>
                     </tr>
@@ -1025,16 +1024,17 @@
                     <tr align="center">
                       <td>
                         <table class="MOON-inner" width="25%" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <a href="{{$section_6->button_link}}" style="color: #ba2c2f; font-size: 13px; line-height: 22.1px; font-weight: 400;" data-color="Text Link" data-size="Main Text3">
                           <tbody><tr>
                             <td data-link-style="text-decoration:none; color:#FFFFFF;" data-link-color="Text Link" align="center" height="40" style="border-radius:20px;/* border: 1px solid #3498db; */padding-left: 10px;padding-right: 10px;font-family: 'Open Sans', Arial, sans-serif;color: #ffffff;font-size:14px;background-color: #ba2c2f;-webkit-box-shadow: 0px 11px 45px -10px #ba2c2f;">
-                              <a href="#" style="color: #ba2c2f; font-size: 13px; line-height: 22.1px; font-weight: 400;" data-color="Text Link" data-size="Main Text3">
-                              </a>
                               <multiline>
-                                Read More&nbsp; &nbsp; &nbsp; &nbsp;+                                                        
+                                {{$section_6->button_text}}                                                        
                               </multiline>
                             </td>
                           </tr>
-                        </tbody></table>
+                        </tbody>                              
+                        </a>
+                      </table>
                       </td>
                     </tr>
                     <tr>
@@ -1047,42 +1047,8 @@
             </tbody></table>
           </td>
         </tr>
-      </tbody></table><table data-module="module-10_32076" mc:repeatable="layout-10" mc:hideable="10" mc:variant="Content-10" data-bg="a2" style="position: relative; opacity: 1; z-index: 0; background-image: url('user_uploads/image_uploads/2018/11/10/bhrNAUJO0qnE8Fpjk3tDcloMXGmQPVCBKwZY46THWxdyfSL1sRi9zIv5.jpg'); background-size: cover; background-position: 50% 40%; max-width: 1000px; top: 0px; left: 0px;" bgcolor="#f3f4f9" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="user_uploads/image_uploads/2018/11/10/bhrNAUJO0qnE8Fpjk3tDcloMXGmQPVCBKwZY46THWxdyfSL1sRi9zIv5.jpg">
-        <tbody><tr>
-          <td class="MOON-600" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="/* background-color: rgba(0, 0, 0, 0.19); */background-size: cover;">
-            <table cellspacing="0" cellpadding="0" align="left" border="0" width="440" class="MOON-600">
-              <!-- img -->
-              <tbody><tr>
-                <td>
-                  <!-- left -->
-                  <table class="MOON3-3" width="310" border="0" align="center" cellpadding="0" cellspacing="0">
-                    <tbody><tr>
-                      <td height="100">
-                      </td>
-                    </tr>
-                    <tr>
-                      <td data-color="Detail3" data-size="Detail3" align="left" style="font-family: Montserrat, sans-serif; font-size: 14px; font-weight: unset; color: rgb(255, 255, 255); letter-spacing: 0px; line-height: 18px; padding-bottom: 3px;">
-                        Design with clarity &amp; purpose.                                       
-                      </td>
-                    </tr>
-                    <tr>
-                      <td data-color="Seperator Title3" data-size="Seperator Title3" align="left" style="font-family: Montserrat, sans-serif; font-size: 52px; font-weight: 700; color: rgb(255, 255, 255); line-height: 41px; letter-spacing: -4px;">
-                        JACKETS                                        
-                      </td>
-                    </tr>
-                    <tr>
-                      <td height="100">
-                      </td>
-                    </tr>
-                  </tbody></table>
-                  <!-- end left -->
-                </td>
-              </tr>
-              <!-- end img -->
-            </tbody></table>
-          </td>
-        </tr>
-      </tbody></table><table data-module="module-11_2173" mc:repeatable="layout-11" mc:hideable="11" mc:variant="Content-11" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="position: relative; opacity: 1; z-index: 0; max-width: 900px; top: 0px; left: 0px;">
+      </tbody></table>
+      <table data-module="module-11_2173" mc:repeatable="layout-11" mc:hideable="11" mc:variant="Content-11" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="position: relative; opacity: 1; z-index: 0; max-width: 900px; top: 0px; left: 0px;">
         <tbody><tr>
           <td align="center">
             <table class="MOON-600" width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
@@ -1105,12 +1071,14 @@
                     </tr>
                     <tr>
                       <td>
+                      @foreach($steps as $key => $step)
                         <table class="MOON3-3" width="30.7%" align="left" border="0" cellpadding="0" cellspacing="0">
-                          <tbody><tr>
+                          <tbody>
+                          <tr>
                             <td width="60" align="center" valign="top">
                               <!-- ======= section text ====== -->
                               <div class="editable_text" style="font-size: 25px;font-weight: initial;/* line-height: 44px; */font-family: 'Open Sans', Arial, sans-serif;color: #ba2c2f;">
-                                01.                                                        
+                                0{{$key+1}}.                                                        
                               </div>
                             </td>
                             <td>
@@ -1118,7 +1086,7 @@
                                 <tbody><tr>
                                   <td data-color="Feature 2" data-size="Feature 2" align="left" style="color: rgb(0, 0, 0); font-size: 18px; line-height: 26.1px; font-family: 'Open Sans', sans-serif;">
                                     <b>
-                                      People who loves design                                   
+                                      {{$step->title}}                                   
                                     </b>
                                   </td>
                                 </tr>
@@ -1128,7 +1096,7 @@
                                 </tr>
                                 <tr>
                                   <td data-color="Content" data-size="Content" align="left" style="font-family: &quot;Open Sans&quot;, sans-serif; font-size: 13px; font-weight: 400; color: rgb(153, 153, 153); line-height: 22.1px;">
-                                    Lorem ipsum dolor sit amet dosus et consectetur dui sepritas aros dos quis del nulla elit.                                                               
+                                    {{$step->text}}                                                              
                                   </td>
                                 </tr>
                                 <tr>
@@ -1138,89 +1106,9 @@
                               </tbody></table>
                             </td>
                           </tr>
-                        </tbody></table>
-                        <table width="4%" height="40" align="left" border="0" cellpadding="0" cellspacing="0">
-                          <tbody><tr>
-                            <td height="40" style="line-height: 0;">
-                              &nbsp;                                                   
-                            </td>
-                          </tr>
-                        </tbody></table>
-                        <table class="MOON3-3" width="30.7%" align="left" border="0" cellpadding="0" cellspacing="0">
-                          <tbody><tr>
-                            <td width="60" align="center" valign="top">
-                              <!-- ======= section text ====== -->
-                              <div class="editable_text" style="font-size: 35px;font-weight: 900;font-size: 25px;font-weight: initial;font-family: 'Open Sans', Arial, sans-serif;color: #ba2c2f;">
-                                02.                                                        
-                              </div>
-                            </td>
-                            <td>
-                              <table width="95%" align="right" border="0" cellpadding="0" cellspacing="0">
-                                <tbody><tr>
-                                  <td data-color="Feature 2" data-size="Feature 2" align="left" style="color: rgb(0, 0, 0); font-size: 18px; line-height: 26.1px; font-family: 'Open Sans', sans-serif;">
-                                    <b>
-                                      People who loves design                                   
-                                    </b>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td height="5">
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td data-color="Content" data-size="Content" align="left" style="font-family: &quot;Open Sans&quot;, sans-serif; font-size: 13px; font-weight: 400; color: rgb(153, 153, 153); line-height: 22.1px;">
-                                    Lorem ipsum dolor sit amet dosus et consectetur dui sepritas aros dos quis del nulla elit.                                                               
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td height="50">
-                                  </td>
-                                </tr>
-                              </tbody></table>
-                            </td>
-                          </tr>
-                        </tbody></table>
-                        <table width="4%" height="40" align="left" border="0" cellpadding="0" cellspacing="0">
-                          <tbody><tr>
-                            <td height="40" style="line-height: 0;">
-                              &nbsp;                                                   
-                            </td>
-                          </tr>
-                        </tbody></table>
-                        <table class="MOON3-3" width="30.7%" align="left" border="0" cellpadding="0" cellspacing="0">
-                          <tbody><tr>
-                            <td width="60" align="center" valign="top">
-                              <!-- ======= section text ====== -->
-                              <div class="editable_text" style="font-size: 25px;font-weight: initial;font-family: 'Open Sans', Arial, sans-serif;color: #ba2c2f;">
-                                03.                                                        
-                              </div>
-                            </td>
-                            <td>
-                              <table width="95%" align="right" border="0" cellpadding="0" cellspacing="0">
-                                <tbody><tr>
-                                  <td data-color="Feature 2" data-size="Feature 2" align="left" style="color: rgb(0, 0, 0); font-size: 18px; line-height: 26.1px; font-family: 'Open Sans', sans-serif;">
-                                    <b>
-                                      People who loves design                                   
-                                    </b>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td height="5">
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td data-color="Content" data-size="Content" align="left" style="font-family: &quot;Open Sans&quot;, sans-serif; font-size: 13px; font-weight: 400; color: rgb(153, 153, 153); line-height: 22.1px;">
-                                    Lorem ipsum dolor sit amet dosus et consectetur dui sepritas aros dos quis del nulla elit.                                                               
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td height="50">
-                                  </td>
-                                </tr>
-                              </tbody></table>
-                            </td>
-                          </tr>
-                        </tbody></table>
+                          </tbody>
+                        </table>
+                        @endforeach
                       </td>
                     </tr>
                     <tr>
@@ -1233,150 +1121,44 @@
             </tbody></table>
           </td>
         </tr>
-      </tbody></table><table data-module="module-12_47394" mc:repeatable="layout-12" mc:hideable="12" mc:variant="Content-12" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="background-color: rgb(255, 255, 255);max-width: 1000px;" data-bgcolor="Background 0a">
+      </tbody></table>
+      <table data-module="module-10_32076" mc:repeatable="layout-10" mc:hideable="10" mc:variant="Content-10" data-bg="a2" style="position: relative; opacity: 1; z-index: 0; background-image: url('{{URL::to('/').'/'.$section_7->background_image}}'); background-size: cover; background-position: 50% 40%; max-width: 1000px; top: 0px; left: 0px;" bgcolor="#f3f4f9" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="{{URL::to('/').'/'.$section_7->background_image}}">
         <tbody><tr>
-          <td align="center">
-            <table class="IN600" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="background-color: #404040;">
+          <td class="MOON-600" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="/* background-color: rgba(0, 0, 0, 0.19); */background-size: cover;">
+            <table cellspacing="0" cellpadding="0" align="left" border="0" width="440" class="MOON-600">
+              <!-- img -->
               <tbody><tr>
-                <td align="center">
-                  <!-- img -->
-                  <table align="right" class="moon3-3" width="50%" border="0" cellspacing="0" cellpadding="0">
+                <td>
+                  <!-- left -->
+                  <table class="MOON3-3" width="310" border="0" align="center" cellpadding="0" cellspacing="0">
                     <tbody><tr>
-                      <td class="Moon-600" width="0" height="750" border="0" align="center" cellpadding="0" cellspacing="0" data-bg="Feature 02" data-bgcolor="Feature 02" bgcolor="#3b3b3b" style="width: 100%; background-image: url('user_uploads/image_uploads/2018/11/10/zLrFmCYcHS5sW4u3JBtEVbD6inhKOlNqQgjR08MUa7eykwvdo2pZG9xI.jpg'); background-color: rgb(255, 255, 255); background-size: cover; background-position: 50% 100%;" background="user_uploads/image_uploads/2018/11/10/zLrFmCYcHS5sW4u3JBtEVbD6inhKOlNqQgjR08MUa7eykwvdo2pZG9xI.jpg">
+                      <td height="100">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-color="Detail3" data-size="Detail3" align="left" style="font-family: Montserrat, sans-serif; font-size: 14px; font-weight: unset; color: rgb(255, 255, 255); letter-spacing: 0px; line-height: 18px; padding-bottom: 3px;">
+                        {{$section_7->subtitle}}                                       
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-color="Seperator Title3" data-size="Seperator Title3" align="left" style="font-family: Montserrat, sans-serif; font-size: 52px; font-weight: 700; color: rgb(255, 255, 255); line-height: 41px; letter-spacing: -4px;">
+                        {{$section_7->title}}                                        
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="100">
                       </td>
                     </tr>
                   </tbody></table>
-                  <!-- end img -->
-                  <table class="Moon-600" align="left" width="50%" border="0" cellspacing="0" cellpadding="0">
-                    <tbody><tr>
-                      <td align="center">
-                        <table class="moon3-3" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
-                          <tbody><tr>
-                            <td>
-                              <table class="Moon-inner" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="width: 74%;">
-                                <tbody><tr>
-                                  <td height="80">
-                                  </td>
-                                </tr>
-                                <tr align="left">
-                                  <td>
-                                    <table width="25" border="0" align="left" cellpadding="0" cellspacing="0">
-                                      <tbody><tr>
-                                        <td data-border-bottom-color="Dash" style="border-bottom: 1.33333px solid rgb(255, 255, 255);">
-                                        </td>
-                                      </tr>
-                                    </tbody></table>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td height="20">
-                                  </td>
-                                </tr>
-                                <tr align="left">
-                                  <td data-link-style="text-decoration:none; color:#414a51;" data-link-color="Feature Title Link1" data-color="Feature Feature Title2" data-size="Feature Header" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(255, 255, 255); font-size: 15px; font-weight: 500; line-height: 25.5px;">
-                                    WHAT YOU GET?                                                                
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td height="5">
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Linkz" data-color="Headline 2" data-size="Headlinez" align="left" style="color: rgb(255, 255, 255); font-family: lato, 'century gothic', 'open sans', arial; font-size: 36px; font-weight: 900; line-height: 33px;">
-                                    <multiline>
-                                      All Features.                                                                    
-                                    </multiline>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td height="30">
-                                  </td>
-                                </tr>
-                                <tr align="left">
-                                  <td data-link-style="text-decoration:none; color:#c86e6e;" data-link-color="Content Link" data-color="Content2" data-size="Content" style="font-family: 'Open sans', Arial, sans-serif; color: rgb(255, 255, 255); font-size: 14px; line-height: 23.8px;">
-                                    <multiline>
-                                      <a style="text-decoration: none; color: rgb(255, 255, 255); font-size: 50px;" data-color="Content Link">
-                                        .                                     
-                                      </a>
-                                      &nbsp;Lorem ipsum dolor sit amet,                                     
-                                      <br>
-                                      <a style="text-decoration: none; color: rgb(255, 255, 255); font-size: 50px;" data-color="Content Link">
-                                        .                                     
-                                      </a>
-                                      consectetur adipiscing elit, sed                                     
-                                      <br>
-                                      <a style="text-decoration: none; color: rgb(255, 255, 255); font-size: 50px;" data-color="Content Link">
-                                        .                                     
-                                      </a>
-                                      &nbsp;eiusmod tempor incididunt&nbsp;                                     
-                                      <br>
-                                      <font>
-                                        <span style="text-decoration-style: initial; text-decoration-color: initial;">
-                                          <a style="text-decoration: none; color: rgb(255, 255, 255); font-size: 50px;" data-color="Content Link">
-                                            .                                         
-                                          </a>
-                                        </span>
-                                      </font>
-                                      <a data-color="Content Link" style="color: rgb(255, 255, 255);">
-                                      </a>
-                                      et dolore magna aliqua. Ut enim                                     
-                                      <br>
-                                      <a style="text-decoration: none; color: rgb(255, 255, 255); font-size: 50px;" data-color="Content Link">
-                                        .                                     
-                                      </a>
-                                      minim veniam, qINs nostrud                                     
-                                      <br>
-                                      <a style="text-decoration: none; color: rgb(255, 255, 255); font-size: 50px;" data-color="Content Link">
-                                        .                                     
-                                      </a>
-                                      exercitation ullamco laboris nisi ut aliqINp ex.                                     
-                                      <br>
-                                      <br>
-                                      <br>
-                                      <br>
-                                      <a style="text-decoration: none; color: rgb(255, 255, 255); font-size: 50px;" data-color="Content Link">
-                                        .                                     
-                                      </a>
-                                      DINs aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.                                                                    
-                                    </multiline>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td height="40">
-                                  </td>
-                                </tr>
-                                <tr align="left">
-                                  <td>
-                                    <table class="class-inner" width="150" border="0" align="left" cellpadding="0" cellspacing="0">
-                                      <tbody><tr>
-                                        <td data-link-style="text-decoration:none; color:#FFFFFF;" data-link-color="Text Link" align="center" height="30" style="border-radius: 27px;padding: 4px;background-color: #ffffff!important;font-family: 'Open Sans', Arial, sans-serif;color: #404040;font-size: 13px;font-weight: 500;/* background: -webkit-linear-gradient(left,#d4145a 0,#e8664a 50%,#d4145a 100%); */background: -o-linear-gradient(right,#d4145a 0,#e8664a 50%,#d4145a 100%);background: -moz-linear-gradient(right,#d4145a 0,#e8664a 50%,#d4145a 100%);/* background: linear-gradient(to right,#d4145a 0,#e8664a 50%,#d4145a 100%); */background-position: 0;background-size: 200% 200%;">
-                                          <a href="#" style="color: rgb(255, 255, 255); font-size: 12px; line-height: 20.4px; font-weight: 400;" data-color="Text Link2" data-size="Main Text2">
-                                          </a>
-                                          <singleline>
-                                            Read More ..                                                                               
-                                          </singleline>
-                                        </td>
-                                      </tr>
-                                    </tbody></table>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td height="80">
-                                  </td>
-                                </tr>
-                              </tbody></table>
-                            </td>
-                          </tr>
-                        </tbody></table>
-                      </td>
-                    </tr>
-                  </tbody></table>
+                  <!-- end left -->
                 </td>
               </tr>
+              <!-- end img -->
             </tbody></table>
           </td>
         </tr>
-      </tbody></table><table data-module="module-13_51448" mc:repeatable="layout-13" mc:hideable="13" mc:variant="Content-13" data-bgcolor="Background" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="position: relative; opacity: 1; z-index: 0; background-color: rgb(255, 255, 255); top: 0px; max-width: 1000px; left: 0px;">
+      </tbody></table>
+      <table data-module="module-13_51448" mc:repeatable="layout-13" mc:hideable="13" mc:variant="Content-13" data-bgcolor="Background" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="position: relative; opacity: 1; z-index: 0; background-color: rgb(255, 255, 255); top: 0px; max-width: 1000px; left: 0px;">
         <tbody><tr>
           <td height="80">
           </td>
@@ -1390,7 +1172,7 @@
                   <table align="left" class="MOON3-3" width="50%" border="0" cellspacing="0" cellpadding="0">
                     <tbody><tr>
                       <td align="center" style="line-height:0px;" valign="middle">
-                        <img style="display:block;line-height:0px;font-size:0px;border:0px;" class="59image_target" src="https://cdn.dribbble.com/users/1175433/screenshots/5369206/delat-dribble-final_4x.png" alt="59img" width="100%">
+                        <img style="display:block;line-height:0px;font-size:0px;border:0px;" class="59image_target" src="{{URL::to('/').'/'.$section_8->image}}" alt="59img" width="100%">
                       </td>
                     </tr>
                   </tbody></table>
@@ -1408,7 +1190,7 @@
                                 </tr>
                                 <tr align="left">
                                   <td data-link-style="text-decoration:none; color:#414a51;" data-link-color="Feature Title Link" data-color="Feature Feature Title" data-size="Feature Header" style="font-family: 'Open Sans', Arial, sans-serif;color: rgb(65, 74, 81);font-size: 32px;font-weight: 900;line-height: 30px;">
-                                    Modern creative agency.                                                                
+                                    {{$section_8->title}}                                                          
                                   </td>
                                 </tr>
                                 <!--end title-->
@@ -1420,7 +1202,7 @@
                                 <tr align="left">
                                   <td data-link-style="text-decoration:none; color:#c86e6e;" data-link-color="Content Link" data-color="Content" data-size="Content" style="font-family: &quot;Open sans&quot;, Arial, sans-serif; color: rgb(153, 153, 153); font-size: 14px; line-height: 23px;">
                                     <multiline>
-                                      We use Product, UI, UX, Motion and Interaction design to craft products that make people’s lives better.                                                                   
+                                      {{$section_8->text}}                                                               
                                     </multiline>
                                   </td>
                                 </tr>
@@ -1471,12 +1253,12 @@
               </tr>
               <tr>
                 <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link1" data-color="Main Text-1" data-size="Main Text" align="center" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: #ba2c2f; font-size: 12px; text-align: center; font-weight: 700; text-transform: uppercase; padding-bottom: 10px;">
-                  WORLD             
+                  {{$section_9->subtitle}}             
                 </td>
               </tr>
               <tr>
                 <td data-link-style="text-decoration:none; color:#FFFFFF;" data-link-color="Feature Link 1a" data-color="Feature Title 1" data-size="Feature Title 1" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(89, 89, 89); font-size: 30px; line-height: 36px; font-weight: 300; letter-spacing: -1px;">
-                  Keep your head UP and believe in yourself&nbsp;             
+                  {{$section_9->title}}         
                 </td>
               </tr>
               <tr>
@@ -1485,12 +1267,12 @@
               </tr>
               <tr>
                 <td data-link-style="text-decoration:none; color:#FFFFFF;" data-link-color="Feature Link 5" data-color="Feature Content 5" data-size="Feature Content 5" align="center" style="font-family: 'Open Sans', Arial, sans-serif;color: rgb(82, 82, 82);font-size: 14px;line-height: 23.8px;">
-                  Up project is magMOONine where you can see black and white photos from different parts of Europe. At these photos you can see roofs, bMOONldings, sky.            
+                  {{$section_9->text}}
                 </td>
               </tr>
               <tr>
                 <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link1" data-color="Main Texts" data-size="Main Text" align="center" style="font-family: 'Open Sans', Arial, sans-serif;color: rgb(187, 187, 187);font-size: 12px;line-height: 22.1px;text-align: center;padding-top: 10px;">
-                  By Scott Lawson 8 Months Ago            
+                  {{$section_9->signature}}
                 </td>
               </tr>
             </tbody></table>
@@ -1514,7 +1296,7 @@
                   <table align="right" class="MOON3-3" width="50%" border="0" cellspacing="0" cellpadding="0">
                     <tbody><tr>
                       <td align="center" style="line-height:0px;" valign="middle">
-                        <img style="display:block;line-height:0px;font-size:0px;border:0px;" class="59image_target" src="https://cdn.dribbble.com/users/1104799/screenshots/3479936/reading_corner_d_2x.png" alt="59img" width="100%">
+                        <img style="display:block;line-height:0px;font-size:0px;border:0px;" class="59image_target" src="{{URL::to('/').'/'.$section_10->image}}" alt="59img" width="100%">
                       </td>
                     </tr>
                   </tbody></table>
@@ -1532,7 +1314,7 @@
                                 </tr>
                                 <tr align="left">
                                   <td data-link-style="text-decoration:none; color:#414a51;" data-link-color="Feature Title Link" data-color="Feature Feature Title" data-size="Feature Header" style="font-family: 'Open Sans', Arial, sans-serif;color: rgb(65, 74, 81);font-size: 32px;font-weight: 900;line-height: 30px;">
-                                    Have your diagram looking great&nbsp;                                                                
+                                    {{$section_10->title}}                                                           
                                   </td>
                                 </tr>
                                 <!--end title-->
@@ -1544,7 +1326,7 @@
                                 <tr align="left">
                                   <td data-link-style="text-decoration:none; color:#c86e6e;" data-link-color="Content Link" data-color="Content" data-size="Content" style="font-family: &quot;Open sans&quot;, Arial, sans-serif; color: rgb(153, 153, 153); font-size: 14px; line-height: 23px;">
                                     <multiline>
-                                      Designs are no good sitting on a hard drive. We create high-quality design systems, blogs and marketing websites.                                                                    
+                                      {{$section_10->text}}                                                
                                     </multiline>
                                   </td>
                                 </tr>
@@ -1596,7 +1378,7 @@
                           <!-- img -->
                           <tbody><tr>
                             <td style="line-height:0px;" align="center">
-                              <img style="display:block;line-height:0px;font-size:0px;border:0px;WIDTH: 100%;" class="img1" src="http://68.media.tumblr.com/b1918a6224b091c8ed43a9e016fc8cf8/tumblr_oel0lavoWR1ux3e6xo1_500.png" alt="img" width="190">
+                              <img style="display:block;line-height:0px;font-size:0px;border:0px;WIDTH: 100%;" class="img1" src="{{URL::to('/').'/'.$section_11->image_1}}" alt="img" width="190">
                             </td>
                           </tr>
                           <tr>
@@ -1621,7 +1403,7 @@
                           <!-- img -->
                           <tbody><tr>
                             <td style="line-height:0px;" align="center">
-                              <img style="display:block;line-height:0px;font-size:0px;border:0px;width: 100%;" class="img1" src="http://68.media.tumblr.com/16c7aacaf7ed3cf520ae826b16ee5d67/tumblr_okd3d8K6Lj1u8wonlo1_500.jpg" alt="img">
+                              <img style="display:block;line-height:0px;font-size:0px;border:0px;width: 100%;" class="img1" src="{{URL::to('/').'/'.$section_11->image_2}}" alt="img">
                             </td>
                           </tr>
                           <tr>
@@ -1653,7 +1435,7 @@
                           <tr>
                             <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link 5a" data-color="Mains Text 5a" data-size="Main Text 5a" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(171, 171, 171); font-size: 24px; font-weight: 100; padding: 0px 10px; line-height: 34.8px;" align="left">
                               <multiline>
-                                Beautiful                                                        
+                                {{$section_11->title}}                                                        
                               </multiline>
                             </td>
                           </tr>
@@ -1664,7 +1446,7 @@
                           <tr>
                             <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="1a Content Link" data-color="1a Headline" data-size="1Headline" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: #ba2c2f; font-size: 14px; font-weight: 400; padding: 0px 10px; line-height: 23.8px;" align="left">
                               <multiline>
-                                iOS / Android , Marketing                                                        
+                                {{$section_11->subtitle}}                                                       
                               </multiline>
                             </td>
                           </tr>
@@ -1676,9 +1458,7 @@
                           <tr>
                             <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Contents1 Link" data-color="Mainss1 Text" data-size="Mains1 Text" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(99, 99, 99); font-size: 14px; line-height: 23.8px; padding: 0px 10px;" align="left">
                               <multiline>
-                                The training buddy that never leaves you hanging.                               
-                                <br>
-                                Sed a blandit odio, et tincidunt erat. Donec sapien purus, vestibulum nec convallis eu, fringilla eget nulla. DMOONs et facilisis ex...                                                       
+                                {{$section_11->text}}
                               </multiline>
                             </td>
                           </tr>
@@ -1716,14 +1496,14 @@
               <tr>
                 <td data-color="Date2" data-size="Date2" data-link-style="text-decoration:none; color:#3498db;" style="font-family: 'Open Sans', Arial, sans-serif;color: rgb(43, 45, 47);font-size: 27px;font-weight: 100;" align="left">
                   <multiline>
-                    we don’t.                                
+                                                
                   </multiline>
                 </td>
               </tr>
               <tr>
                 <td data-color="Seperator Title02" data-size="Seperator Title02" align="left" style="font-family: 'Open Sans', Arial, sans-serif;font-size: 37px;font-weight: 900;color: rgb(43, 45, 47);line-height: 22px;">
                   <multiline>
-                    MESS AROUND                 
+                    {{$section_12->text_2}}  
                   </multiline>
                 </td>
               </tr>
@@ -1744,7 +1524,7 @@
                                 <tbody><tr>
                                   <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link" data-color="Headline" data-size="Headline" align="left" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(160, 160, 160); font-size: 14px; font-weight: 100;line-height: 22.8px;">
                                     <multiline>
-                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec nisi sed diam ultricies tempus. Nullam et ligula sodales, blandit arcu sit amet, varius felis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec nisi sed diam ultricies tempus. Nullam et ligula sodales, blandit arcu sit amet, varius felis.                                                                   
+                                      {{$section_12->text}}  
                                     </multiline>
                                   </td>
                                 </tr>
@@ -1790,7 +1570,7 @@
                           <tbody><tr>
                             <td class="MOON3-3" style="color: rgb(64, 62, 62);font-family: Montserrat, sans-serif;font-size: 21px;font-weight: 700;line-height: 25px;text-align: left;" align="center" data-size="Main Text 5a" data-color="Mains Text 5a" data-link-color="Content Link 5a" data-link-style="text-decoration:none; color:#3498db;">
                               <multiline>
-                                Scientists launch proposal to create synthetic human genome                                                        
+                                {{$section_13->title_1}}
                               </multiline>
                             </td>
                           </tr>
@@ -1802,7 +1582,7 @@
                           <tr>
                             <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Contents1 Link" data-color="Mainss1 Text" data-size="Mains1 Text" align="left" style="font-family: 'Open Sans', Arial, sans-serif;color: rgb(143, 142, 142);font-size: 14px;line-height: 23.8px;">
                               <multiline>
-                                We are a digital design agency. We receive faxes from the future informing us.                                                       
+                                {{$section_13->description_1}}                                                      
                               </multiline>
                             </td>
                           </tr>
@@ -1812,11 +1592,7 @@
                           </tr>
                           <tr>
                             <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link1" data-color="Main Texts" data-size="Main Text" align="center" style="font-family: 'Open Sans', Arial, sans-serif;color: rgb(185, 185, 185);font-size: 12px;line-height: 22.1px;text-align: left;font-weight: 500;">
-                              By                              
-                              <a style="text-decoration:none;color: #000000;" data-color="Content Link1">
-                                Smith                             
-                              </a>
-                              &nbsp;5 Min ago                                                   
+                             {{$section_13->signature_1}}                                           
                             </td>
                           </tr>
                           <tr>
@@ -1825,7 +1601,7 @@
                           </tr>
                           <tr>
                             <td align="center" style="line-height:0px;">
-                              <img style="display: block; line-height: 0px; font-size: 0px; border: 0px;" class="img1" src="http://78.media.tumblr.com/a4f8502b223574c63ece1d86f99c2a5c/tumblr_nvb1xhS09U1qbtlebo1_540.png" alt="img" width="100%">
+                              <img style="display: block; line-height: 0px; font-size: 0px; border: 0px;" class="img1" src="{{URL::to('/').'/'.$section_13->image_1}}" alt="img" width="100%">
                             </td>
                           </tr>
                           <tr>
@@ -1836,7 +1612,7 @@
                         <table width="65%" border="0" align="right" cellpadding="0" cellspacing="0" class="MOON3-3">
                           <!-- img -->
                           <tbody><tr>
-                            <td data-bgcolor="Main" data-bg="Background Gd" align="center" valign="top" bgcolor="#333" background="user_uploads/image_uploads/2018/11/11/lhBdL6rV9WcK2U3ORbDC0wTexF4pyMYiANGsojXP1Qk8zqHIvgZm5JnE.jpg" style="background-image: url('user_uploads/image_uploads/2018/11/11/lhBdL6rV9WcK2U3ORbDC0wTexF4pyMYiANGsojXP1Qk8zqHIvgZm5JnE.jpg'); background-color: rgb(233, 47, 74); background-size: cover; background-position: 50% 50%;">
+                            <td data-bgcolor="Main" data-bg="Background Gd" align="center" valign="top" bgcolor="#333" background="{{URL::to('/').'/'.$section_13->image_2}}" style="background-image: url('{{URL::to('/').'/'.$section_13->image_2}}'); background-color: rgb(233, 47, 74); background-size: cover; background-position: 50% 50%;">
                               <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
                                 <tbody><tr>
                                   <td height="279">
@@ -1847,21 +1623,12 @@
                                     <table width="80%" align="center" border="0" cellpadding="0" cellspacing="0" class="MOON-ineer">
                                       <tbody><tr align="left" style=" ">
                                         <td>
-                                          <table align="left" class="MOON-ineer" width="50px" border="0" cellspacing="0" cellpadding="0" style="height: 25px;background-color: rgb(33, 150, 243);" data-bgcolor="Backgrounda-2">
-                                            <tbody><tr align="left">
-                                              <td data-link-style="text-decoration:none; color:#3cb2d0;" data-link-color="Header 1Link" data-color="Header 1Title" data-size="Header1" style="font-family: 'Open Sans', Arial, sans-serif;font-size: 12px;color: rgb(255, 255, 255);font-weight: 700;background-color: #ba2c2f;" data-bgcolor="Backgrounda-2">
-                                                <singleline style="padding: 3px 8px;">
-                                                  Moon&nbsp;&nbsp;                                               
-                                                </singleline>
-                                              </td>
-                                            </tr>
-                                          </tbody></table>
                                         </td>
                                       </tr>
                                       <tr>
                                         <td data-color="Title j2" data-size="Title j2" align="center" style="font-family: Montserrat, sans-serif; font-size: 30px; font-weight: 700; color: rgb(255, 255, 255); letter-spacing: 2px; line-height: 36px; text-align: left;">
                                           <multiline>
-                                            Climate-Altering Gases Spiked in 2016, Federal Scientists Report                                                                               
+                                          {{$section_13->title_2}}                                                               
                                           </multiline>
                                         </td>
                                       </tr>
@@ -1872,7 +1639,7 @@
                                       <tr>
                                         <td data-color="Content f2" data-size="Content f2" style="font-family: 'Open Sans', sans-serif;font-size: 16px;font-weight: 400;color: rgb(181, 180, 180);line-height: 21.8px;text-align: left;" align="center">
                                           <multiline>
-                                            Sed a blandit odio, et tincidunt erat. Donec sapien purus, vestibulum nec convallis eu, fringilla eget nulla. DMOONs et facilisis ex...                                                                                
+                                            {{$section_13->description}}                                                                    
                                           </multiline>
                                         </td>
                                       </tr>
@@ -1882,7 +1649,7 @@
                                       </tr>
                                       <tr>
                                         <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link1" data-color="Main Texts" data-size="Main Text" align="center" style="font-family: 'Open Sans', Arial, sans-serif;color: rgb(255, 255, 255);font-size: 13px;line-height: 22.1px;text-align: left;">
-                                          By &nbsp;Jonson 8 Min ago                                                                            
+                                          {{$section_13->signature_2}} 
                                         </td>
                                       </tr>
                                     </tbody></table>
@@ -1923,10 +1690,7 @@
                   <table class="MOON3-3" width="47%" align="left" border="0" cellpadding="0" cellspacing="0">
                     <tbody><tr>
                       <td data-color="Title" data-size="Title" style="font-weight: 900; line-height: 39.15px; font-family: 'Open Sans', Arial, sans-serif; color: rgb(66, 66, 66); font-size: 27px;" align="left">
-                        <a style="color: #ba2c2f;">
-                          Brand strategy                       
-                        </a>
-                        and digital creation.
+                        {{$section_14->title}}
                       </td>
                     </tr>
                     <tr>
@@ -1935,7 +1699,7 @@
                     </tr>
                     <tr>
                       <td data-color="Content1" data-size="Content1" style="font-family: 'Open Sans', sans-serif; font-size: 13px; font-weight: 400; color: rgb(168, 168, 168); line-height: 22.1px;" align="left">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit odio at sodales aliquet. Aliquam erat volutpat.                                        
+                        {{$section_14->text}}                                      
                       </td>
                     </tr>
                     <tr>
@@ -1955,7 +1719,7 @@
                           <span class="text_container">
                           </span>
                           <multiline>
-                            UI/UX                                                
+                            {{$section_14->skill_1}}                                               
                           </multiline>
                         </div>
                       </td>
@@ -1970,7 +1734,7 @@
                         <table border="0" width="100%" align="left" cellpadding="0" cellspacing="0" bgcolor="e7e7e7" class="MOON-600">
                           <tbody><tr>
                             <td>
-                              <table border="0" width="80%" align="left" cellpadding="0" cellspacing="0" class="red_bg" style=" " bgcolor="#ba2c2f">
+                              <table border="0" width="{{$section_14->percentage_1}}%" align="left" cellpadding="0" cellspacing="0" class="red_bg" style=" " bgcolor="#ba2c2f">
                                 <tbody><tr>
                                   <td height="3">
                                   </td>
@@ -1993,7 +1757,7 @@
                           <span class="text_container">
                           </span>
                           <multiline>
-                            Ideas                                                
+                            {{$section_14->skill_2}}                                                 
                           </multiline>
                         </div>
                       </td>
@@ -2008,7 +1772,7 @@
                         <table border="0" width="100%" align="left" cellpadding="0" cellspacing="0" bgcolor="e7e7e7" class="MOON-600">
                           <tbody><tr>
                             <td>
-                              <table border="0" width="70%" align="left" cellpadding="0" cellspacing="0" bgcolor="#ba2c2f" class="red_bg">
+                              <table border="0" width="{{$section_14->percentage_2}}%" align="left" cellpadding="0" cellspacing="0" bgcolor="#ba2c2f" class="red_bg">
                                 <tbody><tr>
                                   <td height="3">
                                   </td>
@@ -2031,7 +1795,7 @@
                           <span class="text_container">
                           </span>
                           <multiline>
-                            Marketing                                                
+                          {{$section_14->skill_3}}                                                 
                           </multiline>
                         </div>
                       </td>
@@ -2046,7 +1810,7 @@
                         <table border="0" width="100%" align="left" cellpadding="0" cellspacing="0" bgcolor="e7e7e7" class="MOON-600">
                           <tbody><tr>
                             <td>
-                              <table border="0" width="50%" align="left" cellpadding="0" cellspacing="0" bgcolor="#ba2c2f" class="red_bg">
+                              <table border="0" width="{{$section_14->percentage_3}}%" align="left" cellpadding="0" cellspacing="0" bgcolor="#ba2c2f" class="red_bg">
                                 <tbody><tr>
                                   <td height="3">
                                   </td>
@@ -2072,314 +1836,8 @@
             </tbody></table>
           </td>
         </tr>
-      </tbody></table><table data-module="module-20_7795" mc:repeatable="layout-20" mc:hideable="20" mc:variant="Content-20" style="position: relative;opacity: 1;z-index: 0;max-width: 1000px;top: 0px;left: 0px;max-width: 900px;" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
-        <tbody><tr>
-          <td align="center">
-            <table class="Moon-600" align="center" border="0" cellpadding="0" cellspacing="0" width="90%">
-              <tbody><tr>
-                <td height="100">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <table class="moon3-3" align="right" border="0" cellpadding="0" cellspacing="0" width="49%">
-                    <tbody><tr>
-                      <td height="650" style="background-image: url('user_uploads/image_uploads/2018/11/11/CHQtD9Sk7IyBw28b1U6jOAcKvFpXodzR5fneqlhxEZYWMJN3PgmL4sGT.jpg'); background-position: center center; background-size: cover;" data-bg="Background 0" background="user_uploads/image_uploads/2018/11/11/CHQtD9Sk7IyBw28b1U6jOAcKvFpXodzR5fneqlhxEZYWMJN3PgmL4sGT.jpg">
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="height20 space_class" style="font-size: 1px; line-height: 1px" height="80">
-                        &nbsp;                                       
-                      </td>
-                    </tr>
-                  </tbody></table>
-                  <table class="moon3-3" align="left" border="0" cellpadding="0" cellspacing="0" width="49%">
-                    <tbody><tr>
-                      <td>
-                        <table border="0" cellpadding="0" cellspacing="0" width="80%">
-                          <tbody><tr>
-                            <td class="height20 space_class" style="font-size: 1px; line-height: 1px" height="40">
-                              &nbsp;                                                   
-                            </td>
-                          </tr>
-                          <tr>
-                            <td valign="top" width="45">
-                              <table border="0" cellpadding="0" cellspacing="0">
-                                <tbody><tr>
-                                  <td class="red_bg" style="background: #ba2c2f;" align="center" bgcolor="#f41837" height="45" width="45">
-                                    <table border="0" cellpadding="0" cellspacing="0">
-                                      <tbody><tr>
-                                        <td class="space_class" style="font-size: 1px; line-height: 1px" height="2">
-                                          &nbsp;                                                                           
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td class="weight_700 montserrat white_text" style="color: #ffffff; font-family: 'Montserrat', sans-serif; font-size: 18px; font-weight: 700; line-height: 18px" align="center">
-                                          4                                                                            
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td class="space_class" style="font-size: 1px; line-height: 1px" height="2">
-                                          &nbsp;                                                                           
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td class="weight_400 montserrat white_text" style="color: #ffffff; font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 400; line-height: 13px" align="center">
-                                          May                                                                            
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td class="space_class" style="font-size: 1px; line-height: 1px" height="2">
-                                          &nbsp;                                                                           
-                                        </td>
-                                      </tr>
-                                    </tbody></table>
-                                  </td>
-                                </tr>
-                              </tbody></table>
-                            </td>
-                            <td width="15">
-                            </td>
-                            <td valign="top">
-                              <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                                <tbody><tr>
-                                  <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link 5a" data-color="Mains Text 5a" data-size="Main Text 5a" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: rgb(23, 23, 23); font-size: 24px; font-weight: 100; line-height: 34.8px;" align="left">
-                                    <multiline>
-                                      Seeing Is Believing                                                                    
-                                    </multiline>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td class="height10 space_class" style="font-size: 1px; line-height: 1px" height="7">
-                                    &nbsp;                                                               
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Contents1 Link" data-color="Mainss1 Text" data-size="Mains1 Text" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(143, 142, 142); font-size: 14px; line-height: 23.8px;" align="left">
-                                    <multiline>
-                                      We are a digital design agency. We receive faxes from the future informing us.                                                                   
-                                    </multiline>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td class="height20 space_class" style="font-size: 1px; line-height: 1px" height="20">
-                                    &nbsp;                                                               
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td align="left">
-                                    <table align="left" border="0" cellpadding="0" cellspacing="0">
-                                      <tbody><tr>
-                                        <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link x2" data-color="Headline x2" data-size="Headline x2" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: rgb(199, 199, 199); font-size: 14px; font-weight: normal; line-height: 23.8px;" align="left">
-                                          <singleline>
-                                            &nbsp;Learn More                                                                               
-                                          </singleline>
-                                        </td>
-                                      </tr>
-                                    </tbody></table>
-                                  </td>
-                                </tr>
-                              </tbody></table>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="50">
-                            </td>
-                          </tr>
-                        </tbody></table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <table border="0" cellpadding="0" cellspacing="0" width="80%">
-                          <tbody><tr>
-                            <td valign="top" width="45">
-                              <table border="0" cellpadding="0" cellspacing="0">
-                                <tbody><tr>
-                                  <td class="red_bg" style="background: #ba2c2f;" align="center" bgcolor="#f41837" height="45" width="45">
-                                    <table border="0" cellpadding="0" cellspacing="0">
-                                      <tbody><tr>
-                                        <td class="space_class" style="font-size: 1px; line-height: 1px" height="2">
-                                          &nbsp;                                                                           
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td class="weight_700 montserrat white_text" style="color: #ffffff; font-family: 'Montserrat', sans-serif; font-size: 18px; font-weight: 700; line-height: 18px" align="center">
-                                          4                                                                            
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td class="space_class" style="font-size: 1px; line-height: 1px" height="2">
-                                          &nbsp;                                                                           
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td class="weight_400 montserrat white_text" style="color: #ffffff; font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 400; line-height: 13px" align="center">
-                                          May                                                                            
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td class="space_class" style="font-size: 1px; line-height: 1px" height="2">
-                                          &nbsp;                                                                           
-                                        </td>
-                                      </tr>
-                                    </tbody></table>
-                                  </td>
-                                </tr>
-                              </tbody></table>
-                            </td>
-                            <td width="15">
-                            </td>
-                            <td valign="top">
-                              <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                                <tbody><tr>
-                                  <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link 5a" data-color="Mains Text 5a" data-size="Main Text 5a" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: rgb(23, 23, 23); font-size: 24px; font-weight: 100; line-height: 34.8px;" align="left">
-                                    <multiline>
-                                      Seeing Is Believing                                                                    
-                                    </multiline>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td class="height10 space_class" style="font-size: 1px; line-height: 1px" height="7">
-                                    &nbsp;                                                               
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Contents1 Link" data-color="Mainss1 Text" data-size="Mains1 Text" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(143, 142, 142); font-size: 14px; line-height: 23.8px;" align="left">
-                                    <multiline>
-                                      We are a digital design agency.We receive faxes from the future informing us.                                   
-                                    </multiline>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td class="height20 space_class" style="font-size: 1px; line-height: 1px" height="20">
-                                    &nbsp;                                                               
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td align="left">
-                                    <table align="left" border="0" cellpadding="0" cellspacing="0">
-                                      <tbody><tr>
-                                        <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link x2" data-color="Headline x2" data-size="Headline x2" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: rgb(199, 199, 199); font-size: 14px; font-weight: normal; line-height: 23.8px;" align="left">
-                                          <singleline>
-                                            &nbsp;Learn More                                                                               
-                                          </singleline>
-                                        </td>
-                                      </tr>
-                                    </tbody></table>
-                                  </td>
-                                </tr>
-                              </tbody></table>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="50">
-                            </td>
-                          </tr>
-                        </tbody></table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <table border="0" cellpadding="0" cellspacing="0" width="80%">
-                          <tbody><tr>
-                            <td valign="top" width="45">
-                              <table border="0" cellpadding="0" cellspacing="0">
-                                <tbody><tr>
-                                  <td class="red_bg" style="background: #ba2c2f;" align="center" bgcolor="#f41837" height="45" width="45">
-                                    <table border="0" cellpadding="0" cellspacing="0">
-                                      <tbody><tr>
-                                        <td class="space_class" style="font-size: 1px; line-height: 1px" height="2">
-                                          &nbsp;                                                                           
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td class="weight_700 montserrat white_text" style="color: #ffffff; font-family: 'Montserrat', sans-serif; font-size: 18px; font-weight: 700; line-height: 18px" align="center">
-                                          4                                                                            
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td class="space_class" style="font-size: 1px; line-height: 1px" height="2">
-                                          &nbsp;                                                                           
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td class="weight_400 montserrat white_text" style="color: #ffffff; font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 400; line-height: 13px" align="center">
-                                          May                                                                            
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td class="space_class" style="font-size: 1px; line-height: 1px" height="2">
-                                          &nbsp;                                                                           
-                                        </td>
-                                      </tr>
-                                    </tbody></table>
-                                  </td>
-                                </tr>
-                              </tbody></table>
-                            </td>
-                            <td width="15">
-                            </td>
-                            <td valign="top">
-                              <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                                <tbody><tr>
-                                  <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link 5a" data-color="Mains Text 5a" data-size="Main Text 5a" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: rgb(23, 23, 23); font-size: 24px; font-weight: 100; line-height: 34.8px;" align="left">
-                                    <multiline>
-                                      Seeing Is Believing                                                                    
-                                    </multiline>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td class="height10 space_class" style="font-size: 1px; line-height: 1px" height="7">
-                                    &nbsp;                                                               
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Contents1 Link" data-color="Mainss1 Text" data-size="Mains1 Text" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(143, 142, 142); font-size: 14px; line-height: 23.8px;" align="left">
-                                    <multiline>
-                                      We are a digital design agency.We receive faxes from the future informing us.                                                                    
-                                    </multiline>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td class="height20 space_class" style="font-size: 1px; line-height: 1px" height="20">
-                                    &nbsp;                                                               
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td align="left">
-                                    <table align="left" border="0" cellpadding="0" cellspacing="0">
-                                      <tbody><tr>
-                                        <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link x2" data-color="Headline x2" data-size="Headline x2" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: rgb(199, 199, 199); font-size: 14px; font-weight: normal; line-height: 23.8px;" align="left">
-                                          <singleline>
-                                            &nbsp;Learn More                                                                               
-                                          </singleline>
-                                        </td>
-                                      </tr>
-                                    </tbody></table>
-                                  </td>
-                                </tr>
-                              </tbody></table>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="50">
-                            </td>
-                          </tr>
-                        </tbody></table>
-                      </td>
-                    </tr>
-                  </tbody></table>
-                </td>
-              </tr>
-              <tr>
-                <td height="20">
-                </td>
-              </tr>
-            </tbody></table>
-          </td>
-        </tr>
-      </tbody></table><table data-module="module-21_66611" mc:repeatable="layout-21" mc:hideable="21" mc:variant="Content-21" data-bg="F08" style="position: relative; opacity: 1; z-index: 0; max-width: 900px; background-image: url('user_uploads/image_uploads/2018/12/20/y4ZxX5AsbdEk62JVYI3PNOznH1MFhuTa0LweoK7jtC8iSBGRf9lWcvmq.jpg'); background-size: cover; background-position: 50% 40%;" bgcolor="#f3f4f9" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="user_uploads/image_uploads/2018/12/20/y4ZxX5AsbdEk62JVYI3PNOznH1MFhuTa0LweoK7jtC8iSBGRf9lWcvmq.jpg">
+      </tbody></table>
+      <table data-module="module-21_66611" mc:repeatable="layout-21" mc:hideable="21" mc:variant="Content-21" data-bg="F08" style="position: relative; opacity: 1; z-index: 0; max-width: 900px; background-image: url('{{URL::to('/').'/'.$section_15->background_image}}'); background-size: cover; background-position: 50% 40%;" bgcolor="#f3f4f9" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="{{URL::to('/').'/'.$section_15->background_image}}">
         <tbody><tr>
           <td bgcolor="#3498db" class="Moon-600" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="background-color: rgba(0, 0, 0, 0);background-size: cover;">
             <table cellspacing="0" cellpadding="0" align="left" border="0" width="100%" class="Moon-600">
@@ -2394,14 +1852,12 @@
                     </tr>
                     <tr>
                       <td data-color="Seperator" data-size="Seperator" align="center" style="font-family: Montserrat, sans-serif; font-size: 29px; font-weight: 700; color: rgb(255, 255, 255); line-height: 29px; text-align: center; padding-bottom: 6px;">
-                        About Products                       
-                        <br>
-                        Design                                        
+                        {{$section_15->title}}
                       </td>
                     </tr>
                     <tr>
                       <td data-color="Detail2" data-size="Detail2" align="center" style="font-family: Montserrat, sans-serif; font-size: 10px; font-weight: 700; color: rgb(255, 255, 255); letter-spacing: 2px; line-height: 18px; text-align: center;">
-                        SUBHEADLINE
+                        {{$section_15->subtitle}}
                       </td>
                     </tr>
                     <tr>
@@ -2410,7 +1866,7 @@
                     </tr>
                     <tr>
                       <td data-color="Content2" data-size="Content2" align="center" style="font-family: &quot;Open Sans&quot;, sans-serif; font-size: 13px; font-weight: 400; color: rgb(255, 255, 255); line-height: 22.1px; text-align: center;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec nisi sed diam ultricies tempus. Nullam et ligula sodales, blandit arcu sit amet, varius felis.                                        
+                        {{$section_15->text}}
                       </td>
                     </tr>
                     <tr>
@@ -2419,17 +1875,17 @@
                     </tr>
                     <tr align="center">
                       <td>
+                      <a href="{{$section_15->button_link}}" style="color: rgb(255, 255, 255); font-size: 12px; line-height: 20.4px; font-weight: 400;" data-color="Text Link23" data-size="Main Text23">
                         <table class="class-inner" width="150" border="0" align="center" cellpadding="0" cellspacing="0">
                           <tbody><tr>
                             <td data-link-style="text-decoration:none; color:#FFFFFF;" align="center" height="36" style="border-radius:20px;border: 1px solid #FFFFFF;padding-left: 10px;padding-right: 10px;font-family: 'Open Sans', Arial, sans-serif;color: #38393b;font-size:14px;font-weight: 500;background-color: white;">
-                              <a href="#" style="color: rgb(255, 255, 255); font-size: 12px; line-height: 20.4px; font-weight: 400;" data-color="Text Link23" data-size="Main Text23">
-                              </a>
                               <singleline>
-                                Read More                                                        
+                              {{$section_15->button_text}}                                                      
                               </singleline>
                             </td>
                           </tr>
                         </tbody></table>
+                        </a>
                       </td>
                     </tr>
                     <tr>
@@ -2441,229 +1897,6 @@
                 </td>
               </tr>
               <!-- end img -->
-            </tbody></table>
-          </td>
-        </tr>
-      </tbody></table><table data-module="module-22_67476" mc:repeatable="layout-22" mc:hideable="22" mc:variant="Content-22" border="0" width="100%" cellpadding="0" cellspacing="0" style="position: relative;opacity: 1;z-index: 0; max-width: 900px;  top: 0px;left: 0px;">
-        <tbody><tr>
-          <td align="left" style="background-size: cover;background-position: 50% 0%;background-repeat: no-repeat;background-color: rgba(255, 255, 255, 0.38);" class="main-bg7" bgcolor="#f3f4f9">
-            <table border="0" align="center" width="90%" cellpadding="0" cellspacing="0" class="MOON-600">
-              <tbody><tr>
-                <td height="120" style=" ">
-                  &nbsp;                           
-                </td>
-              </tr>
-              <tr>
-                <td align="left">
-                  <table border="0" align="left" cellpadding="0" width="50%" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="MOON-600">
-                    <tbody><tr>
-                      <td>
-                        <table border="0" width="100%" align="center" cellpadding="0" cellspacing="0" class="MOON-inner">
-                          <tbody><tr>
-                            <td align="left" style="color: #424242;font-size: 33px;font-family: 'Open Sans', Arial, sans-serif;font-weight: 900;" class="title_color">
-                              <!-- ======= section text ====== -->
-                              <div class="editable_text" style=" ">
-                                <span class="text_container" style=" ">
-                                  NETWORX                               
-                                </span>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td align="left" style="color: #ba2c2f;font-size: 24px;font-family: 'Open Sans', Arial, sans-serif;font-weight: 400;z-index: 25;" class="title_color">
-                              <!-- ======= section text ====== -->
-                              <div class="editable_text">
-                                <span class="text_container">
-                                  Social Application
-                                </span>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="25" style="font-size: 25px; line-height: 25px;">
-                              &nbsp;                                                   
-                            </td>
-                          </tr>
-                          <tr>
-                            <td data-color="Content23" data-size="Content23" align="left" style="font-family: 'Open Sans', sans-serif;font-size: 14px;font-weight: 400;color: rgb(140, 140, 140);line-height: 23.8px;">
-                              Readymade marfa blog, pitchfork food truck tofu jean shorts homo organic photo boothscenester.&nbsp;Thundercats keytar terry richardson, biodiesel banksy food truck.                                                    
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="50" style="font-size: 25px; line-height: 25px;">
-                              &nbsp;                                                   
-                            </td>
-                          </tr>
-                          <tr align="left">
-                            <td>
-                              <table align="left" border="0" cellpadding="0" cellspacing="0" width="130">
-                                <tbody><tr>
-                                  <td data-link-style="text-decoration:none; color:#FFFFFF;" data-link-color="Text Link" style="border-radius: 21px;padding-left: 5px;padding-right: 5px;font-family: 'Open Sans', Arial, sans-serif;color: #f6f6f6;font-size: 12px;background-color: #ba2c2f;-webkit-box-shadow: 0px 11px 45px -10px #ba2c2f;" align="center" height="40">
-                                    More info                                                                
-                                  </td>
-                                </tr>
-                              </tbody></table>
-                            </td>
-                          </tr>
-                        </tbody></table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td height="20" style="font-size: 25px; line-height: 25px;">
-                        &nbsp;                                       
-                      </td>
-                    </tr>
-                  </tbody></table>
-                  <table border="0" align="right" cellpadding="0" width="50%" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="MOON-600">
-                    <tbody><tr>
-                      <td>
-                        <table border="0" width="50%" align="left" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
-                          <tbody><tr>
-                            <td align="center" data-link-color="Content Link 22r" data-color="Main Text 22r" data-size="Main Text 22r" style="color: #ba2c2f; font-size: 40px; font-family: &quot;Open Sans&quot;, Calibri, sans-serif; line-height: 40px; font-weight: 800;" class="title_color">
-                              <!-- ======= main header ======= -->
-                              <div class="editable_text" style="line-height: 40px;">
-                                <span class="text_container">
-                                </span>
-                                <singleline>
-                                  2,578                                                            
-                                </singleline>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="5" style="font-size: 5px; line-height: 5px;">
-                              &nbsp;                                                   
-                            </td>
-                          </tr>
-                          <tr>
-                            <td align="center" data-link-color="Content Link 33r" data-color="Main Text 33r" data-size="Main Text 33r" style="color: rgb(97, 97, 97); font-size: 14px; font-family: 'Pt Serif', Calibri, sans-serif; font-style: italic; line-height: 22px;" class="text_color">
-                              <!-- ======= main header ======= -->
-                              <div class="editable_text" style="line-height: 22px;">
-                                <span style="font-style: normal;">
-                                  Cups Of Coffee&nbsp;                               
-                                </span>
-                              </div>
-                            </td>
-                          </tr>
-                        </tbody></table>
-                        <table border="0" width="50%" align="right" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
-                          <tbody><tr>
-                            <td align="center" data-link-color="Content Link 22r" data-color="Main Text 22r" data-size="Main Text 22r" style="color: #ba2c2f; font-size: 40px; font-family: &quot;Open Sans&quot;, Calibri, sans-serif; line-height: 40px; font-weight: 800;" class="title_color">
-                              <!-- ======= main header ======= -->
-                              <div class="editable_text" style="line-height: 40px;">
-                                <span class="text_container">
-                                </span>
-                                <singleline>
-                                  1,675                                                            
-                                </singleline>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="5" style="font-size: 5px; line-height: 5px;">
-                              &nbsp;                                                   
-                            </td>
-                          </tr>
-                          <tr>
-                            <td align="center" data-link-color="Content Link 33r" data-color="Main Text 33r" data-size="Main Text 33r" style="color: rgb(97, 97, 97); font-size: 14px; font-family: 'Pt Serif', Calibri, sans-serif; font-style: italic; line-height: 22px;" class="text_color">
-                              <!-- ======= main header ======= -->
-                              <div class="editable_text" style="line-height: 22px;">
-                                <span style="font-style: normal;">
-                                  <span class="text_container">
-                                  </span>
-                                </span>
-                                <singleline>
-                                  <span style="font-style: normal;">
-                                    Happy Clients                                 
-                                  </span>
-                                </singleline>
-                              </div>
-                            </td>
-                          </tr>
-                        </tbody></table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td height="70" style=" ">
-                        &nbsp;                                       
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <table border="0" width="50%" align="left" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
-                          <tbody><tr>
-                            <td align="center" data-link-color="Content Link 22r" data-color="Main Text 22r" data-size="Main Text 22r" style="color: #ba2c2f; font-size: 40px; font-family: &quot;Open Sans&quot;, Calibri, sans-serif; line-height: 40px; font-weight: 800;" class="title_color">
-                              <!-- ======= main header ======= -->
-                              <div class="editable_text" style="line-height: 40px;">
-                                <span class="text_container">
-                                </span>
-                                <singleline>
-                                  2,578                                                            
-                                </singleline>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="5" style="font-size: 5px; line-height: 5px;">
-                              &nbsp;                                                   
-                            </td>
-                          </tr>
-                          <tr>
-                            <td align="center" data-link-color="Content Link 33r" data-color="Main Text 33r" data-size="Main Text 33r" style="color: rgb(97, 97, 97); font-size: 14px; font-family: 'Pt Serif', Calibri, sans-serif; font-style: italic; line-height: 22px;" class="text_color">
-                              <!-- ======= main header ======= -->
-                              <div class="editable_text" style="line-height: 22px;">
-                                <span style="font-style: normal;">
-                                  Cups Of Coffee&nbsp;                               
-                                </span>
-                              </div>
-                            </td>
-                          </tr>
-                        </tbody></table>
-                        <table border="0" width="50%" align="right" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
-                          <tbody><tr>
-                            <td align="center" data-link-color="Content Link 22r" data-color="Main Text 22r" data-size="Main Text 22r" style="color: #ba2c2f; font-size: 40px; font-family: &quot;Open Sans&quot;, Calibri, sans-serif; line-height: 40px; font-weight: 800;" class="title_color">
-                              <!-- ======= main header ======= -->
-                              <div class="editable_text" style="line-height: 40px;">
-                                <span class="text_container">
-                                </span>
-                                <singleline>
-                                  1,675                                                            
-                                </singleline>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="5" style="font-size: 5px; line-height: 5px;">
-                              &nbsp;                                                   
-                            </td>
-                          </tr>
-                          <tr>
-                            <td align="center" data-link-color="Content Link 33r" data-color="Main Text 33r" data-size="Main Text 33r" style="color: rgb(97, 97, 97); font-size: 14px; font-family: 'Pt Serif', Calibri, sans-serif; font-style: italic; line-height: 22px;" class="text_color">
-                              <!-- ======= main header ======= -->
-                              <div class="editable_text" style="line-height: 22px;">
-                                <span style="font-style: normal;">
-                                  <span class="text_container">
-                                  </span>
-                                </span>
-                                <singleline>
-                                  <span style="font-style: normal;">
-                                    Happy Clients                                 
-                                  </span>
-                                </singleline>
-                              </div>
-                            </td>
-                          </tr>
-                        </tbody></table>
-                      </td>
-                    </tr>
-                  </tbody></table>
-                </td>
-              </tr>
-              <tr>
-                <td height="100" style="font-size: 80px; line-height: 80px;">
-                  &nbsp;                           
-                </td>
-              </tr>
             </tbody></table>
           </td>
         </tr>
@@ -2698,7 +1931,7 @@
                     <tr>
                       <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link1" data-color="Headline1" data-size="Headline1" align="left" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: #ba2c2f; font-size: 46px; font-weight: 100; line-height: 46px; text-align: center;">
                         <multiline>
-                          SELECTED PROJECTS                                            
+                          2020 PROJECTS                                            
                         </multiline>
                       </td>
                     </tr>
@@ -4840,479 +4073,8 @@
             </tbody></table>
           </td>
         </tr>
-      </tbody></table><table data-module="module-36_99081" mc:repeatable="layout-36" mc:hideable="36" mc:variant="Content-36" border="0" width="100%" cellpadding="0" cellspacing="0" style="position: relative;opacity: 1;z-index: 0;max-width: 900px;top: 0px;left: 0px;max-width: 1000px;">
-        <tbody><tr>
-          <td align="left" style="background-size: cover;background-position: 50% 0%;background-repeat: no-repeat;background-color: rgba(232, 232, 232, 0.38);" class="main-bg7" bgcolor="#f3f4f9">
-            <table border="0" align="center" width="90%" cellpadding="0" cellspacing="0" class="MOON-600">
-              <tbody><tr>
-                <td height="120" style=" ">
-                  &nbsp;                           
-                </td>
-              </tr>
-              <tr>
-                <td align="left">
-                  <table border="0" align="left" cellpadding="0" width="50%" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="MOON-600">
-                    <tbody><tr>
-                      <td>
-                        <table border="0" width="50%" align="left" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
-                          <tbody><tr>
-                            <td align="center" data-link-color="Content Link 22r" data-color="Main Text 22r" data-size="Main Text 22r" style="color: rgb(36, 36, 36); font-size: 40px; font-family: 'Open Sans', Calibri, sans-serif; line-height: 40px; font-weight: 800;" class="title_color">
-                              <!-- ======= main header ======= -->
-                              <div class="editable_text" style="line-height: 40px;">
-                                <span class="text_container">
-                                </span>
-                                <singleline>
-                                  180                                                            
-                                </singleline>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr align="center">
-                            <td>
-                              <table width="25" border="0" align="center" cellpadding="0" cellspacing="0">
-                              </table>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="5" style="font-size: 5px; line-height: 5px;">
-                              &nbsp;                                                   
-                            </td>
-                          </tr>
-                          <tr>
-                            <td align="center" data-link-color="Content Link 33r" data-color="Main Text 33r" data-size="Main Text 33r" style="color: rgb(97, 97, 97); font-size: 14px; font-family: 'Pt Serif', Calibri, sans-serif; font-style: italic; line-height: 22px;" class="text_color">
-                              <!-- ======= main header ======= -->
-                              <div class="editable_text" style="line-height: 22px;">
-                                <span style="font-style: normal;">
-                                  Finished Projects                               
-                                </span>
-                              </div>
-                            </td>
-                          </tr>
-                        </tbody></table>
-                        <table border="0" width="50%" align="right" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
-                          <tbody><tr>
-                            <td align="center" data-link-color="Content Link 22r" data-color="Main Text 22r" data-size="Main Text 22r" style="color: rgb(36, 36, 36); font-size: 40px; font-family: 'Open Sans', Calibri, sans-serif; line-height: 40px; font-weight: 800;" class="title_color">
-                              <!-- ======= main header ======= -->
-                              <div class="editable_text" style="line-height: 40px;">
-                                <span class="text_container">
-                                </span>
-                                <singleline>
-                                  743                                                            
-                                </singleline>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="5" style="font-size: 5px; line-height: 5px;">
-                              &nbsp;                                                   
-                            </td>
-                          </tr>
-                          <tr>
-                            <td align="center" data-link-color="Content Link 33r" data-color="Main Text 33r" data-size="Main Text 33r" style="color: rgb(97, 97, 97); font-size: 14px; font-family: 'Pt Serif', Calibri, sans-serif; font-style: italic; line-height: 22px;" class="text_color">
-                              <!-- ======= main header ======= -->
-                              <div class="editable_text" style="line-height: 22px;">
-                                <span style="font-style: normal;">
-                                  Team Members&nbsp;                               
-                                </span>
-                              </div>
-                            </td>
-                          </tr>
-                        </tbody></table>
-                      </td>
-                    </tr>
-                  </tbody></table>
-                  <table border="0" align="right" cellpadding="0" width="50%" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="MOON-600">
-                    <tbody><tr>
-                      <td>
-                        <table border="0" width="50%" align="left" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
-                          <tbody><tr>
-                            <td align="center" data-link-color="Content Link 22r" data-color="Main Text 22r" data-size="Main Text 22r" style="color: rgb(36, 36, 36); font-size: 40px; font-family: 'Open Sans', Calibri, sans-serif; line-height: 40px; font-weight: 800;" class="title_color">
-                              <!-- ======= main header ======= -->
-                              <div class="editable_text" style="line-height: 40px;">
-                                <span class="text_container">
-                                </span>
-                                <singleline>
-                                  2,578                                                            
-                                </singleline>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="5" style="font-size: 5px; line-height: 5px;">
-                              &nbsp;                                                   
-                            </td>
-                          </tr>
-                          <tr>
-                            <td align="center" data-link-color="Content Link 33r" data-color="Main Text 33r" data-size="Main Text 33r" style="color: rgb(97, 97, 97); font-size: 14px; font-family: 'Pt Serif', Calibri, sans-serif; font-style: italic; line-height: 22px;" class="text_color">
-                              <!-- ======= main header ======= -->
-                              <div class="editable_text" style="line-height: 22px;">
-                                <span style="font-style: normal;">
-                                  Cups Of Coffee&nbsp;                               
-                                </span>
-                              </div>
-                            </td>
-                          </tr>
-                        </tbody></table>
-                        <table border="0" width="50%" align="right" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
-                          <tbody><tr>
-                            <td align="center" data-link-color="Content Link 22r" data-color="Main Text 22r" data-size="Main Text 22r" style="color: rgb(36, 36, 36); font-size: 40px; font-family: 'Open Sans', Calibri, sans-serif; line-height: 40px; font-weight: 800;" class="title_color">
-                              <!-- ======= main header ======= -->
-                              <div class="editable_text" style="line-height: 40px;">
-                                <span class="text_container">
-                                </span>
-                                <singleline>
-                                  1,675                                                            
-                                </singleline>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="5" style="font-size: 5px; line-height: 5px;">
-                              &nbsp;                                                   
-                            </td>
-                          </tr>
-                          <tr>
-                            <td align="center" data-link-color="Content Link 33r" data-color="Main Text 33r" data-size="Main Text 33r" style="color: rgb(97, 97, 97); font-size: 14px; font-family: 'Pt Serif', Calibri, sans-serif; font-style: italic; line-height: 22px;" class="text_color">
-                              <!-- ======= main header ======= -->
-                              <div class="editable_text" style="line-height: 22px;">
-                                <span style="font-style: normal;">
-                                  <span class="text_container">
-                                  </span>
-                                </span>
-                                <singleline>
-                                  <span style="font-style: normal;">
-                                    Happy Clients                                 
-                                  </span>
-                                </singleline>
-                              </div>
-                            </td>
-                          </tr>
-                        </tbody></table>
-                      </td>
-                    </tr>
-                  </tbody></table>
-                </td>
-              </tr>
-              <tr>
-                <td height="120" style="font-size: 80px; line-height: 80px;">
-                  &nbsp;                           
-                </td>
-              </tr>
-            </tbody></table>
-          </td>
-        </tr>
-      </tbody></table><table data-module="module-37_3929" mc:repeatable="layout-37" mc:hideable="37" mc:variant="Content-37" data-bgcolor="Main BG" align="center" bgcolor="#eceff3" width="100%" border="0" cellspacing="0" cellpadding="0" style="position: relative;opacity: 1;z-index: 0;background-color: rgb(255, 255, 255);max-width: 900px;">
-        <tbody><tr>
-          <td align="center">
-            <table data-bgcolor="Container" style="background-color: rgb(255, 255, 255);" bgcolor="#FFFFFF" align="center" class="MOON-600" width="90%" border="0" cellspacing="0" cellpadding="0">
-              <tbody><tr>
-                <td>
-                  <!-- left -->
-                  <table class="MOON-600" width="100%" border="0" cellspacing="0" cellpadding="0">
-                    <tbody><tr>
-                      <td height="80">
-                      </td>
-                    </tr>
-                    <tr>
-                      <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link 0a" data-color="HeadLines 0a" data-size="HeadLines 0a" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(64, 64, 64); font-size: 35px; font-weight: 100; line-height: 42.5px;">
-                        <singleline>
-                          Pricing                                            
-                        </singleline>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td height="15">
-                      </td>
-                    </tr>
-                    <!-- content -->
-                    <tr>
-                      <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link 1a" data-color="Main Text 1a" data-size="Main Text 1a" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(54, 48, 48); font-size: 14px; line-height: 23.8px;">
-                        <multiline>
-                          Here is a selection of work I've done. To view my full portfolio, visit my                         
-                          <br>
-                          Behance profile here or view my recent work on dribbble.                                            
-                        </multiline>
-                      </td>
-                    </tr>
-                    <!-- end content -->
-                    <tr>
-                      <td height="30">
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <!-- left -->
-                        <table data-bgcolor="Box Color" bgcolor="#F5F5F5" width="33%" border="0" align="left" cellpadding="0" cellspacing="0" class="MOON3-3" style="background-color: rgb(255, 255, 255);border: 1px solid #dbdbdb;margin-top: 15px;margin-bottom: 20px;">
-                          <!-- img -->
-                          <tbody><tr>
-                            <td height="20">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="1z Content Link" data-color="1z Headline" data-size="1z Headline" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(63, 63, 63); font-size: 15px; font-weight: 400; padding: 0px 10px; line-height: 25.5px;">
-                              <singleline>
-                                Starter Package                                                        
-                              </singleline>
-                            </td>
-                          </tr>
-                          <!-- end title -->
-                          <tr>
-                            <td height="5">
-                            </td>
-                          </tr>
-                          <!-- content -->
-                          <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link 5y" data-color="Mains Text 5y" data-size="Main Text 5y" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(63, 63, 63); font-size: 47px; font-weight: 900; padding: 0px 10px;">
-                              <multiline>
-                                $30                                                        
-                              </multiline>
-                            </td>
-                          </tr>
-                          <!-- end content -->
-                          <tr>
-                            <td height="15">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Contents5 Link" data-color="Mainss5 Text" data-size="Mains5 Text" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(63, 63, 63); font-size: 15px; line-height: 25.5px; padding: 0px 10px 10px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(219, 219, 219);">
-                              <multiline>
-                                Add some detailed information here                                                       
-                              </multiline>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="20">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Contents6 Link" data-color="Mainss6 Text" data-size="Mains6 Text" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(63, 63, 63); font-size: 14px; line-height: 23.8px; padding: 0px 10px;">
-                              <multiline>
-                                Free Support                               
-                                <br>
-                                15 Demos Included Moonsletter                               
-                                <br>
-                                Working Contact Form                                                        
-                              </multiline>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Contents8 Link" data-color="Mainss8 Text" data-size="Mains6 Text" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(189, 189, 189); font-size: 14px; line-height: 23.8px; padding: 0px 10px;">
-                              <singleline>
-                                Unlimited Domains                                                        
-                              </singleline>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="40">
-                            </td>
-                          </tr>
-                          <tr align="center">
-                            <td>
-                              <table class="MOON-inner" width="70%" border="0" align="center" cellpadding="0" cellspacing="0">
-                                <tbody><tr>
-                                  <td data-link-style="text-decoration:none; color:#FFFFFF;" data-link-color="Text Link23" align="center" height="30" style=" border: 1px solid #3F3F3F;padding-left: 10px;padding-right: 10px;font-family: 'Open Sans', Arial, sans-serif; font-size:14px; ">
-                                    <a href="#" style="color: rgb(63, 63, 63); font-size: 18px; line-height: 26.1px; font-weight: 900;" data-color="Text Link22" data-size="Main Text22">
-                                    </a>
-                                    <singleline style="     font-weight: 900; ">
-                                      GO NOW !                                                                   
-                                    </singleline>
-                                  </td>
-                                </tr>
-                              </tbody></table>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="20">
-                            </td>
-                          </tr>
-                        </tbody></table>
-                        <!-- end left -->
-                        <!-- middle -->
-                        <table data-bgcolor="Box Color" bgcolor="#F5F5F5" width="33%" border="0" align="left" cellpadding="0" cellspacing="0" class="MOON3-3" style="background-color: rgb(255, 255, 255);border: 3px solid #ba2c2f;margin-bottom: 20px;">
-                          <!-- img -->
-                          <tbody><tr>
-                            <td height="30">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="1z Content Link" data-color="1z Headline" data-size="1z Headline" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(63, 63, 63); font-size: 15px; font-weight: 400; padding: 0px 10px; line-height: 25.5px;">
-                              <singleline>
-                                Enterprise Package                                                       
-                              </singleline>
-                            </td>
-                          </tr>
-                          <!-- end title -->
-                          <tr>
-                            <td height="15">
-                            </td>
-                          </tr>
-                          <!-- content -->
-                          <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link 2y" data-color="Mains Text 2y" data-size="Main Text 5y" align="center" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: #ba2c2f; font-size: 47px; font-weight: 900; padding: 0px 10px;">
-                              <multiline>
-                                $50                                                        
-                              </multiline>
-                            </td>
-                          </tr>
-                          <!-- end content -->
-                          <tr>
-                            <td height="15">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Contents5 Link" data-color="Mainss5 Text" data-size="Mains5 Text" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(63, 63, 63); font-size: 15px; line-height: 25.5px; padding: 0px 10px 10px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(219, 219, 219);">
-                              <multiline>
-                                Add some detailed information here                                                       
-                              </multiline>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="20">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Contents6 Link" data-color="Mainss6 Text" data-size="Mains6 Text" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(63, 63, 63); font-size: 14px; line-height: 23.8px; padding: 0px 10px;">
-                              <multiline>
-                                Free Support                               
-                                <br>
-                                25 Demos Included Moonsletter&nbsp;                               
-                                <br>
-                                Working Contact Form                                                        
-                              </multiline>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Contents8 Link" data-color="Mainss8 Text" data-size="Mains6 Text" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(189, 189, 189); font-size: 14px; line-height: 23.8px; padding: 0px 10px;">
-                              <singleline>
-                                Unlimited Domains                                                        
-                              </singleline>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="40">
-                            </td>
-                          </tr>
-                          <tr align="center">
-                            <td>
-                              <table class="MOON-inner" width="70%" border="0" align="center" cellpadding="0" cellspacing="0">
-                                <tbody><tr>
-                                  <td data-bgcolor="Main Color" align="center" height="36" bgcolor="#3498db" style="padding-left: 15px; padding-right: 15px; font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: rgb(255, 255, 255); font-size: 14px; font-weight: bold; background-color: #ba2c2f;">
-                                    <a href="#" style="color: rgb(255, 255, 255);" data-color="Button Link">
-                                    </a>
-                                    <singleline>
-                                      GO NOW !                                                                   
-                                    </singleline>
-                                  </td>
-                                </tr>
-                              </tbody></table>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="20">
-                            </td>
-                          </tr>
-                        </tbody></table>
-                        <!-- end middle -->
-                        <!-- right -->
-                        <table data-bgcolor="Box Color" bgcolor="#F5F5F5" width="33%" border="0" align="left" cellpadding="0" cellspacing="0" class="MOON3-3" style="background-color: rgb(255, 255, 255);border: 1px solid #dbdbdb;margin-top: 15px;">
-                          <!-- img -->
-                          <tbody><tr>
-                            <td height="20">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="1z Content Link" data-color="1z Headline" data-size="1z Headline" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(63, 63, 63); font-size: 15px; font-weight: 400; padding: 0px 10px; line-height: 25.5px;">
-                              <singleline>
-                                Business Package                                                       
-                              </singleline>
-                            </td>
-                          </tr>
-                          <!-- end title -->
-                          <tr>
-                            <td height="5">
-                            </td>
-                          </tr>
-                          <!-- content -->
-                          <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link 5y" data-color="Mains Text 5y" data-size="Main Text 5y" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(63, 63, 63); font-size: 47px; font-weight: 900; padding: 0px 10px;">
-                              <multiline>
-                                $90                                                        
-                              </multiline>
-                            </td>
-                          </tr>
-                          <!-- end content -->
-                          <tr>
-                            <td height="15">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Contents5 Link" data-color="Mainss5 Text" data-size="Mains5 Text" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(63, 63, 63); font-size: 15px; line-height: 25.5px; padding: 0px 10px 10px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(219, 219, 219);">
-                              <multiline>
-                                Add some detailed information here                                                       
-                              </multiline>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="20">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Contents6 Link" data-color="Mainss6 Text" data-size="Mains6 Text" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(63, 63, 63); font-size: 14px; line-height: 23.8px; padding: 0px 10px;">
-                              <multiline>
-                                Free Support                               
-                                <br>
-                                50 Demos Included Moonsletter                               
-                                <br>
-                                Working Contact Form                                                        
-                              </multiline>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Contents8 Link" data-color="Mainss8 Text" data-size="Mains6 Text" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(189, 189, 189); font-size: 14px; line-height: 23.8px; padding: 0px 10px;">
-                              <singleline>
-                                Unlimited Domains                                                        
-                              </singleline>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="40">
-                            </td>
-                          </tr>
-                          <tr align="center">
-                            <td>
-                              <table class="MOON-inner" width="70%" border="0" align="center" cellpadding="0" cellspacing="0">
-                                <tbody><tr>
-                                  <td data-link-style="text-decoration:none; color:#FFFFFF;" data-link-color="Text Link23" align="center" height="30" style=" border: 1px solid #3F3F3F;padding-left: 10px;padding-right: 10px;font-family: 'Open Sans', Arial, sans-serif; font-size:14px; font-weight: 900;">
-                                    <a href="#" style="color: rgb(63, 63, 63); font-size: 18px; line-height: 26.1px; font-weight: 900;" data-color="Text Link22" data-size="Main Text22">
-                                    </a>
-                                    <singleline>
-                                      GO NOW !                                                                   
-                                    </singleline>
-                                  </td>
-                                </tr>
-                              </tbody></table>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="20">
-                            </td>
-                          </tr>
-                        </tbody></table>
-                        <!-- end right -->
-                      </td>
-                    </tr>
-                    <tr>
-                      <td height="80">
-                      </td>
-                    </tr>
-                  </tbody></table>
-                  <!-- end left -->
-                </td>
-              </tr>
-            </tbody></table>
-          </td>
-        </tr>
-      </tbody></table><table data-module="module-38_30966" mc:repeatable="layout-38" mc:hideable="38" mc:variant="Content-38" data-bgcolor="Main BG" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="position: relative;opacity: 1;z-index: 0;background-color: rgb(255, 255, 255);top: 0px;left: 0px;max-width: 1000px;max-width: 900px;" bgcolor="#eceff3">
+      </tbody></table>
+      <table data-module="module-38_30966" mc:repeatable="layout-38" mc:hideable="38" mc:variant="Content-38" data-bgcolor="Main BG" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="position: relative;opacity: 1;z-index: 0;background-color: rgb(255, 255, 255);top: 0px;left: 0px;max-width: 1000px;max-width: 900px;" bgcolor="#eceff3">
         <tbody><tr>
           <td align="center">
             <table data-bgcolor="Container" style="background-color: rgb(249, 249, 249);" bgcolor="#FFFFFF" align="center" class="Moon-600" width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -5724,7 +4486,7 @@
                         <table align="CENTER" border="0" cellpadding="0" cellspacing="0">
                           <tbody><tr>
                             <td align="left" width="27">
-                              <img src="user_uploads/image_uploads/2016/01/10/d24q9UxS8HMYhmZocg01OApszlaRFIkC.png" alt="" style="width: 18px;height: 18px;">
+                              <i class="fa fa-envelope" style="font-size: 18px;width: 18px;height: 18px;" alt=""></i>
                             </td>
                             <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link xs" data-color="Headline xs" data-size="Headline xs" align="left" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(10, 10, 10); font-size: 13px; font-weight: 600;">
                               <multiline>
@@ -5747,51 +4509,16 @@
                       <td align="center">
                         <table width="15%" border="0" align="center" cellpadding="0" cellspacing="0" style="width: 90px;margin-left: 0px;margin-right: 0px;">
                           <tbody><tr>
+                          @foreach($socials as $social)
                             <td>
-                              <a style="color: #ba2c2f; border: 0px !important;" href="#">
-                                <img width="21" border="0" style="display: block; width: 15px;" src="../zip_uploads/GCawWlmFpcDR4E8MVHhqSt2v/Roger_demo/images/fb-gray.png" alt="instagram">
+                              <a style="color: #ba2c2f; border: 0px !important;" href="{{$social->link}}">
+                                <i width="21" border="0" style="display: block; width: 15px;" class="fa {{$social->icon}}"></i>
                               </a>
                             </td>
                             <td>
                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                   
                             </td>
-                            <td>
-                              <a style="color: #ba2c2f; border: 0px !important;" href="#">
-                                <img width="11" border="0" style="display: block; width: 15px;" src="../zip_uploads/GCawWlmFpcDR4E8MVHhqSt2v/Roger_demo/images/twitter-gray.png" alt="facebook">
-                              </a>
-                            </td>
-                            <td>
-                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                   
-                            </td>
-                            <td>
-                              <a style="color: #ba2c2f; border: 0px !important;" href="#">
-                                <img width="22" border="0" style="display: block; width: 15px;" src="../zip_uploads/GCawWlmFpcDR4E8MVHhqSt2v/Roger_demo/images/pinterest-gray.png" alt="google">
-                              </a>
-                            </td>
-                            <td>
-                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                   
-                            </td>
-                            <td>
-                              <a style="color: #ba2c2f; border: 0px !important;" href="#">
-                                <img width="22" border="0" style="display: block; width: 15px;" src="../zip_uploads/GCawWlmFpcDR4E8MVHhqSt2v/Roger_demo/images/dribbble-gray.png" alt="twitter">
-                              </a>
-                            </td>
-                            <td>
-                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                   
-                            </td>
-                            <td>
-                              <a style="color: #ba2c2f; border: 0px !important;" href="#">
-                                <img width="21" border="0" style="display: block; width: 15px;" src="../zip_uploads/GCawWlmFpcDR4E8MVHhqSt2v/Roger_demo/images/vimeo-gray.png" alt="linkeden">
-                              </a>
-                            </td>
-                            <td>
-                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                   
-                            </td>
-                            <td>
-                              <a style="color: #ba2c2f; border: 0px !important;" href="#">
-                                <img width="21" border="0" style="display: block; width: 18px;" src="../zip_uploads/GCawWlmFpcDR4E8MVHhqSt2v/Roger_demo/images/behance-gray.png" alt="dribbble">
-                              </a>
-                            </td>
+                            @endforeach
                           </tr>
                           <!--end Social-->
                         </tbody></table>
