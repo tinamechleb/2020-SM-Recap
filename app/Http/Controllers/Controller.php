@@ -26,6 +26,11 @@ use App\Section15;
 use App\Service;
 use App\Step;
 use App\Statistic;
+use App\Project;
+use App\Team;
+use App\Design;
+use App\News;
+use App\Logo;
 use Illuminate\Routing\Controller as BaseController;
 
 class Controller extends BaseController
@@ -64,6 +69,11 @@ class Controller extends BaseController
         $services = Service::get();
         $steps = Step::get();
         $statistics = Statistic::get();
-        return view('welcome', ['settings' => $settings, 'socials' => $socials, 'section_2' => $section_2, 'section_3' => $section_3, 'services' => $services, 'statistics' => $statistics, 'section_4' => $section_4, 'section_5' => $section_5, 'section_6' => $section_6, 'section_7' => $section_7, 'steps' => $steps, 'section_8' => $section_8, 'section_9' => $section_9, 'section_10' => $section_10, 'section_11' => $section_11, 'section_12' => $section_12, 'section_13' => $section_13, 'section_14' => $section_14, 'section_15' => $section_15]);
+        $projects = Project::get();
+        $teams = Team::get();
+        $designs = Design::get();
+        $news = News::get();
+        $logos = Logo::get();
+        return view('welcome', ['settings' => $settings, 'socials' => $socials, 'section_2' => $section_2, 'section_3' => $section_3, 'services' => $services, 'statistics' => $statistics, 'section_4' => $section_4, 'section_5' => $section_5, 'section_6' => $section_6, 'section_7' => $section_7, 'steps' => $steps, 'section_8' => $section_8, 'section_9' => $section_9, 'section_10' => $section_10, 'section_11' => $section_11, 'section_12' => $section_12, 'section_13' => $section_13, 'section_14' => $section_14, 'section_15' => $section_15, 'projects' => $projects, 'teams' => $teams, 'designs' => $designs, 'news' => $news, 'logos' => $logos]);
     }
 }

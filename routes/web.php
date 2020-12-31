@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'App\Http\Controllers\Controller@home');
 Route::get('/test', 'App\Http\Controllers\Controller@test');
+Route::get('/admin/emails/send/{id}', 'App\Http\Controllers\EmailController@send');
 
 
 /*
