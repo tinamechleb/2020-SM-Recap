@@ -1908,10 +1908,10 @@
                       <td>
                         <table style="border-collaps:collaps;" class="Moon-600" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
                           <tbody><tr>
-                            <td>
+                            <td style="display:grid;">
                               <table style="margin: 0 auto; border-collaps:collaps;" class="moon3-3" align="left" border="0" cellpadding="0" cellspacing="0" width="396">
                                 <tbody><tr>
-                                  <td style="margin: 0 auto; border-collaps:collaps;">
+                                  <td>
                                     <table style="border-collaps:collaps;" border="0" cellpadding="0" cellspacing="0" width="100%">
                                       <tbody><tr>
                                         <td>
