@@ -4,7 +4,7 @@
     <title>Smartest Media</title>
       <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> 
 </head>
-<body marginwidth="0" marginheight="0" style="margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;" offset="0" topmargin="0" leftmargin="0">
+<body marginwidth="0" marginheight="0" style="margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;overflow-x:hidden;" offset="0" topmargin="0" leftmargin="0">
     <div>
           <div id="frame" class="empty">
 
@@ -936,7 +936,7 @@
         </tr>
         <tr>
           <td align="center">
-            <table class="Moon-inner" width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+            <table class="Moon-inner" width="600" border="0" align="center" cellpadding="0" cellspacing="0" style="width: 100%;">
             </table>
           </td>
         </tr>
@@ -953,7 +953,7 @@
                     </tr>
                     <!-- title -->
                     <tr>
-                      <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link1" data-color="Headline1" data-size="Headline1" align="center" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: #ba2c2f; font-size: 16px; font-weight: 400; line-height: 27.2px;">
+                      <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link1" data-color="Headline1" data-size="Headline1" align="center" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: #ba2c2f; font-size: 16px; font-weight: 400; line-height: 27.2px;display: flex;justify-content: center;width: 100vw;">
                         <multiline>
                           {{$section_6->title}}                                            
                         </multiline>
@@ -966,7 +966,7 @@
                     </tr>
                     <!-- content -->
                     <tr>
-                      <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link2" data-color="Mains Text2" data-size="Main Text2" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: #fff; font-size: 21px; font-weight: 100; line-height: 35.7px;">
+                      <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link2" data-color="Mains Text2" data-size="Main Text2" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: #fff; font-size: 21px; font-weight: 100; line-height: 35.7px;display: flex;justify-content: center;width: 100vw;">
                         <multiline>
                         {{$section_6->text}}                                        
                         </multiline>
@@ -977,10 +977,10 @@
                       <td height="15">
                       </td>
                     </tr>
-                    <tr align="center">
+                    <tr align="center" style="display:grid;width:100vw;">
                       <td>
-                        <table class="MOON-inner" width="25%" border="0" align="center" cellpadding="0" cellspacing="0">
                         <a href="{{$section_6->button_link}}" style="color: #ba2c2f; font-size: 13px; line-height: 22.1px; font-weight: 400;" data-color="Text Link" data-size="Main Text3">
+                        <table class="MOON-inner" width="25%" border="0" align="center" cellpadding="0" cellspacing="0">
                           <tbody><tr>
                             <td data-link-style="text-decoration:none; color:#FFFFFF;" data-link-color="Text Link" align="center" height="40" style="border-radius:20px;/* border: 1px solid #3498db; */padding-left: 10px;padding-right: 10px;font-family: 'Open Sans', Arial, sans-serif;color: #ffffff;font-size:14px;background-color: #ba2c2f;-webkit-box-shadow: 0px 11px 45px -10px #ba2c2f;">
                               <multiline>
@@ -988,9 +988,9 @@
                               </multiline>
                             </td>
                           </tr>
-                        </tbody>                              
+                        </tbody>      
+                      </table>                        
                         </a>
-                      </table>
                       </td>
                     </tr>
                     <tr>
@@ -1794,7 +1794,7 @@
       </tbody></table>
       <table data-module="module-21_66611" mc:repeatable="layout-21" mc:hideable="21" mc:variant="Content-21" data-bg="F08" style="position: relative; opacity: 1; z-index: 0; max-width: 900px; background-image: url('{{URL::to('/').'/'.$section_15->background_image}}'); background-size: cover; background-position: 50% 40%;" bgcolor="#f3f4f9" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="{{URL::to('/').'/'.$section_15->background_image}}">
         <tbody><tr>
-          <td bgcolor="#3498db" class="Moon-600" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="background-color: rgba(0, 0, 0, 0);background-size: cover;">
+          <td bgcolor="#3498db" class="Moon-600" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="background-color: rgba(0, 0, 0, 0);background-size: cover;justify-content: center;display: flex;}">
             <table cellspacing="0" cellpadding="0" align="left" border="0" width="100%" class="Moon-600">
               <!-- img -->
               <tbody><tr>
@@ -2213,9 +2213,9 @@
                 </td>
               </tr>
               <tr>
-                <td>
+                <td class="row">
                   @foreach($news as $new)
-                  <table class="moon3-3" width="48%" align="left" border="0" cellpadding="0" cellspacing="0" style="-webkit-box-shadow: 0px 30px 45px -12px rgba(0,0,0,0.11);margin-right: 15px;margin-bottom: 15px;">
+                  <table class="Moon3-3" width="46%" align="left" border="0" cellpadding="0" cellspacing="0" style="-webkit-box-shadow: 0px 30px 45px -12px rgba(0,0,0,0.11);margin-right: 15px;margin-bottom: 15px;">
                     <tbody><tr>
                       <td align="left">
                         <img src="{{URL::to('/').'/'.$new->image}}" alt="img" style="     width: 100%; ">
