@@ -1860,9 +1860,9 @@
         <tbody><tr>
           <td data-border-bottom-color="Divider" style="border-bottom-width: 0px; border-bottom-style: none; border-bottom-color: rgb(184, 184, 184);" class="Moon-600">
             <table style="margin: 0 auto; border-collaps:collaps;" class="moon3-3" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
-              <tbody><tr>
-                <td align="center">
-                  <table border="0" align="center" cellpadding="0" cellspacing="0" width="100%" class="Moon-inner">
+              <tbody style="width: 100%;display: block;"><tr>
+                <td align="center" style="width: 100%;display: flex;">
+                  <table border="0" align="center" cellpadding="0" cellspacing="0" width="100%" class="Moon-inner" style="width: 100%;justify-content: center;display: flex;">
                     <tbody><tr>
                       <td height="100">
                       </td>
