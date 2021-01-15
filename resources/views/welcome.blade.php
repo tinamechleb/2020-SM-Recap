@@ -380,7 +380,7 @@
           <td align="center">
             <table class="Moon-600" width="90%" align="center" border="0" cellpadding="0" cellspacing="0">
               <tbody><tr>
-                <td height="100">
+                <td height="50">
                 </td>
               </tr>
               <tr>
@@ -570,7 +570,7 @@
                 </td>
               </tr>
               <tr>
-                <td height="50">
+                <td>
                 </td>
               </tr>
             </tbody></table>
@@ -578,7 +578,7 @@
         </tr>
       </tbody></table><table data-module="module-6_13377" mc:repeatable="layout-6" mc:hideable="6" mc:variant="Content-6" data-bgcolor="Background" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="position: relative; opacity: 1; z-index: 0; background-color: rgb(255, 255, 255); top: 0px; left: 0px;">
         <tbody><tr>
-          <td height="40">
+          <td>
           </td>
         </tr>
         <tr>
@@ -847,7 +847,7 @@
             </tbody></table>
           </td>
         </tr>
-      </tbody></table><table data-module="module-8_96756" mc:repeatable="layout-8" mc:hideable="8" mc:variant="Content-8" data-bgcolor="Background" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="position: relative;opacity: 1;z-index: 0;background-color: rgb(249, 249, 249);max-width: 1000px;top: 0px;left: 0px;">
+      </tbody></table><table data-module="module-8_96756" mc:repeatable="layout-8" mc:hideable="8" mc:variant="Content-8" data-bgcolor="Background" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="position: relative;opacity: 1;z-index: 0;background-color: #000;max-width: 1000px;top: 0px;left: 0px;">
         <tbody><tr>
           <td height="50">
           </td>
@@ -870,7 +870,7 @@
                                   </td>
                                 </tr>
                                 <tr align="left">
-                                  <td data-link-style="text-decoration:none; color:#414a51;" data-link-color="Feature Title Link" data-color="Feature Feature Title" data-size="Feature Header" style="font-family: 'Open Sans', Arial, sans-serif;color: rgb(65, 74, 81);font-size: 22px;font-weight: 700;">
+                                  <td data-link-style="text-decoration:none; color:#414a51;" data-link-color="Feature Title Link" data-color="Feature Feature Title" data-size="Feature Header" style="font-family: 'Open Sans', Arial, sans-serif;color: #ba2c2f;font-size: 22px;font-weight: 700;">
                                     <singleline>
                                       {{$section_5->title}}                                                             
                                     </singleline>
@@ -945,7 +945,7 @@
           <td align="center">
             <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
               <tbody><tr>
-                <td data-bgcolor="Main 1" align="center" valign="top" bgcolor="#333" style="background-color: #000; background-size: cover; background-position: 50% 50%;">
+                <td data-bgcolor="Main 1" align="center" valign="top" bgcolor="#333" style="background-color: #ba2c2f; background-size: cover; background-position: 50% 50%;">
                   <table class="MOON-600" width="600" align="center" border="0" cellpadding="0" cellspacing="0">
                     <tbody><tr>
                       <td height="80">
@@ -953,7 +953,7 @@
                     </tr>
                     <!-- title -->
                     <tr>
-                      <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link1" data-color="Headline1" data-size="Headline1" align="center" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: #ba2c2f; font-size: 16px; font-weight: 400; line-height: 27.2px;display: flex;justify-content: center;width: 100vw;">
+                      <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link1" data-color="Headline1" data-size="Headline1" align="center" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: #000; font-size: 16px; font-weight: 400; line-height: 27.2px;display: flex;justify-content: center;width: 100vw;">
                         <multiline>
                           {{$section_6->title}}                                            
                         </multiline>
@@ -966,7 +966,7 @@
                     </tr>
                     <!-- content -->
                     <tr>
-                      <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link2" data-color="Mains Text2" data-size="Main Text2" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: #fff; font-size: 21px; font-weight: 100; line-height: 35.7px;display: flex;justify-content: center;width: 100vw;">
+                      <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link2" data-color="Mains Text2" data-size="Main Text2" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: #000; font-size: 21px; font-weight: 100; line-height: 35.7px;display: flex;justify-content: center;width: 100vw;">
                         <multiline>
                         {{$section_6->text}}                                        
                         </multiline>
@@ -982,7 +982,7 @@
                         <a href="{{$section_6->button_link}}" style="color: #ba2c2f; font-size: 13px; line-height: 22.1px; font-weight: 400;" data-color="Text Link" data-size="Main Text3">
                         <table class="MOON-inner" width="25%" border="0" align="center" cellpadding="0" cellspacing="0">
                           <tbody><tr>
-                            <td data-link-style="text-decoration:none; color:#FFFFFF;" data-link-color="Text Link" align="center" height="40" style="border-radius:20px;/* border: 1px solid #3498db; */padding-left: 10px;padding-right: 10px;font-family: 'Open Sans', Arial, sans-serif;color: #ffffff;font-size:14px;background-color: #ba2c2f;-webkit-box-shadow: 0px 11px 45px -10px #ba2c2f;">
+                            <td data-link-style="text-decoration:none; color:#FFFFFF;" data-link-color="Text Link" align="center" height="40" style="border-radius:20px;/* border: 1px solid #3498db; */padding-left: 10px;padding-right: 10px;font-family: 'Open Sans', Arial, sans-serif;color: #ffffff;font-size:14px;background-color: #000;-webkit-box-shadow: 0px 11px 45px -10px #ba2c2f;">
                               <multiline>
                                 {{$section_6->button_text}}                                                        
                               </multiline>
@@ -2162,19 +2162,6 @@
                             </td>
                           </tr>
                           <tr>
-                            <td width="25%" align="center" class="hide">
-                              <table border="0" align="left" cellpadding="0" cellspacing="0">
-                                <tbody><tr>
-                                  <td style="padding: 0px 10px;">
-                                    <a style="color: #ba2c2f; border: 0px !important;" href="{{$member->linkedin_link}}">
-                                      <i class="fa fa-linkedin" style="display: block; width: 15px;font-size: 15px;" border="0" width="21"></i>
-                                    </a>
-                                  </td>
-                                </tr>
-                              </tbody></table>
-                            </td>
-                          </tr>
-                          <tr>
                             <td height="50">
                             </td>
                           </tr>
@@ -2186,7 +2173,7 @@
                             </td>
                           </tr>
                           <tr>
-                            <td height="50">
+                            <td>
                             </td>
                           </tr>
                         </tbody></table>
@@ -2194,105 +2181,11 @@
                       </td>
                     </tr>
                     <tr>
-                      <td height="100">
+                      <td>
                       </td>
                     </tr>
                   </tbody></table>
                   <!-- end left -->
-                </td>
-              </tr>
-            </tbody></table>
-          </td>
-        </tr>
-      </tbody></table><table data-module="module-29_56567" mc:repeatable="layout-29" mc:hideable="29" mc:variant="Content-29" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="position: relative;opacity: 1;z-index: 0;/* max-width: 900px; */background-color: rgba(241, 243, 243, 0.47);max-width: 1000px;">
-        <tbody><tr>
-          <td align="center">
-            <table class="Moon-600" width="80%" align="center" border="0" cellpadding="0" cellspacing="0" style="     max-width: 900px; ">
-              <tbody><tr>
-                <td height="100">
-                </td>
-              </tr>
-              <tr>
-                <td class="row">
-                  @foreach($news as $new)
-                  <table class="Moon3-3" width="46%" align="left" border="0" cellpadding="0" cellspacing="0" style="-webkit-box-shadow: 0px 30px 45px -12px rgba(0,0,0,0.11);margin-right: 15px;margin-bottom: 15px;">
-                    <tbody><tr>
-                      <td align="left">
-                        <img src="{{URL::to('/').'/'.$new->image}}" alt="img" style="     width: 100%; ">
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <table class="Moon-inner" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="     padding: 30px;     background-color: white; ">
-                          <!-- title -->
-                          <tbody><tr>
-                            <td height="15">
-                            </td>
-                          </tr>
-                          <!-- end title -->
-                          <!-- content -->
-                          <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link 5a" data-color="Mains Text 5a" data-size="Main Text 5a" align="left" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: rgb(0, 0, 0); font-size: 21px; font-weight: 100; line-height: 30.45px;">
-                              <multiline>
-                                {{$new->title}}                                                       
-                              </multiline>
-                            </td>
-                          </tr>
-                          <!-- end content -->
-                          <tr>
-                            <td height="15">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Contents1 Link" data-color="Mainss1 Text" data-size="Mains1 Text" align="left" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(143, 142, 142); font-size: 14px; line-height: 23.8px;">
-                              <multiline>
-                                {{$new->details}}                                                        
-                              </multiline>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="30">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td height="20">
-                            </td>
-                          </tr>
-                        </tbody></table>
-                      </td>
-                    </tr>
-                  </tbody></table>
-                  @endforeach
-                
-                </td>
-              </tr>
-              <tr>
-                <td height="50">
-                </td>
-              </tr>
-              <tr>
-              </tr>
-              <tr>
-                <td height="50">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                 
-                </td>
-              </tr>
-              <tr>
-                <td height="100">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <table border="0" width="100%" align="left" cellpadding="0" cellspacing="0" bgcolor="e7e7e7" class="container590">
-                    <tbody><tr>
-                      <td>
-                      </td>
-                    </tr>
-                  </tbody></table>
                 </td>
               </tr>
             </tbody></table>
