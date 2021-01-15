@@ -217,17 +217,7 @@
                                       </tr>
                                       <tr align="center">
                                         <td>
-                                          <a href="{{URL::to('/')}}">
-                                            <table class="Moon-inner" width="160" border="0" align="center" cellpadding="0" cellspacing="0">
-                                              <tbody>
-                                                <tr>
-                                                  <td data-link-style="text-decoration:none; color:#FFFFFF;" data-link-color="Text Link" align="center" height="30" style="border-radius: 26px;/* border: 1px solid #231F20; */padding-left: 10px;padding-right: 10px;font-family: 'Open Sans', Arial, sans-serif;color: #ba2c2f;font-size: 13px;font-weight: 500;background-color: #f9f9f9;">
-                                                    View In Browser                                                                            
-                                                  </td>
-                                                </tr>
-                                              </tbody>
-                                            </table>
-                                          </a>
+                                          
                                         </td>
                                       </tr>
                                     </tbody></table>
@@ -623,7 +613,7 @@
                                         </td>
                                       </tr>
                                       <tr>
-                                        <td data-color="Feature01" data-size="Feature01" align="left" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 50px; font-weight: 800; color: rgb(249, 176, 62); line-height: 34.2px; text-align: center;">
+                                        <td data-color="Feature01" data-size="Feature01" align="left" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 50px; font-weight: 800; color: #ba2c2f; line-height: 34.2px; text-align: center;">
                                           {{$statistics[0]->number}}
                                         </td>
                                       </tr>
@@ -656,7 +646,7 @@
                                         </td>
                                       </tr>
                                       <tr>
-                                        <td data-color="Feature01" data-size="Feature01" align="left" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 50px; font-weight: 800; color: rgb(249, 176, 62); line-height: 34.2px; text-align: center;">
+                                        <td data-color="Feature01" data-size="Feature01" align="left" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 50px; font-weight: 800; color: #ba2c2f; line-height: 34.2px; text-align: center;">
                                           {{$statistics[1]->number}}                   
                                         </td>
                                       </tr>
@@ -700,7 +690,7 @@
                                         </td>
                                       </tr>
                                       <tr>
-                                        <td data-color="Feature01" data-size="Feature01" align="left" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 50px; font-weight: 800; color: rgb(249, 176, 62); line-height: 34.2px; text-align: center;">
+                                        <td data-color="Feature01" data-size="Feature01" align="left" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 50px; font-weight: 800; color: #fff; line-height: 34.2px; text-align: center;">
                                           {{$statistics[2]->number}}                   
                                         </td>
                                       </tr>
@@ -734,7 +724,7 @@
                                         </td>
                                       </tr>
                                       <tr>
-                                        <td data-color="Feature01" data-size="Feature01" align="left" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 50px; font-weight: 800; color: rgb(249, 176, 62); line-height: 34.2px; text-align: center;">
+                                        <td data-color="Feature01" data-size="Feature01" align="left" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 50px; font-weight: 800; color: #fff; line-height: 34.2px; text-align: center;">
                                           {{$statistics[3]->number}}                   
                                         </td>
                                       </tr>
@@ -1237,76 +1227,6 @@
           <td height="80">
           </td>
         </tr>
-      </tbody></table><table data-module="module-15_1241" mc:repeatable="layout-15" mc:hideable="15" mc:variant="Content-15" data-bgcolor="Background" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="position: relative; opacity: 1; z-index: 0; background-color: rgb(255, 255, 255); top: 0px; max-width: 1000px; left: 0px;">
-        <tbody><tr>
-          <td height="80">
-          </td>
-        </tr>
-        <tr>
-          <td align="center">
-            <table class="MOON-600" width="90%" border="0" align="center" cellpadding="0" cellspacing="0" style="/* max-width: 900px; */">
-              <tbody><tr>
-                <td data-bgcolor="Box Color" align="center" bgcolor="#fff" style="background-color: rgb(255, 255, 255);">
-                  <!-- img -->
-                  <table align="right" class="MOON3-3" width="50%" border="0" cellspacing="0" cellpadding="0">
-                    <tbody><tr>
-                      <td align="center" style="line-height:0px;" valign="middle">
-                        <img style="display:block;line-height:0px;font-size:0px;border:0px;" class="59image_target" src="{{URL::to('/').'/'.$section_10->image}}" alt="59img" width="100%">
-                      </td>
-                    </tr>
-                  </tbody></table>
-                  <!-- end img -->
-                  <table class="MOON3-3" align="left" width="50%" border="0" cellspacing="0" cellpadding="0">
-                    <tbody><tr>
-                      <td align="center">
-                        <table class="MOON3-3" align="left" width="100%" border="0" cellspacing="0" cellpadding="0">
-                          <tbody><tr>
-                            <td align="center">
-                              <table class="IN-inner" width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
-                                <tbody><tr>
-                                  <td height="40">
-                                  </td>
-                                </tr>
-                                <tr align="left">
-                                  <td data-link-style="text-decoration:none; color:#414a51;" data-link-color="Feature Title Link" data-color="Feature Feature Title" data-size="Feature Header" style="font-family: 'Open Sans', Arial, sans-serif;color: rgb(65, 74, 81);font-size: 32px;font-weight: 900;line-height: 30px;">
-                                    {{$section_10->title}}                                                           
-                                  </td>
-                                </tr>
-                                <!--end title-->
-                                <tr>
-                                  <td height="30">
-                                  </td>
-                                </tr>
-                                <!--content-->
-                                <tr align="left">
-                                  <td data-link-style="text-decoration:none; color:#c86e6e;" data-link-color="Content Link" data-color="Content" data-size="Content" style="font-family: &quot;Open sans&quot;, Arial, sans-serif; color: rgb(153, 153, 153); font-size: 14px; line-height: 23px;">
-                                    <multiline>
-                                      {{$section_10->text}}                                                
-                                    </multiline>
-                                  </td>
-                                </tr>
-                                <!--end content-->
-                                <tr>
-                                  <td height="50">
-                                  </td>
-                                </tr>
-                                <!--link-->
-                              </tbody></table>
-                            </td>
-                          </tr>
-                        </tbody></table>
-                      </td>
-                    </tr>
-                  </tbody></table>
-                </td>
-              </tr>
-            </tbody></table>
-          </td>
-        </tr>
-        <tr>
-          <td height="50">
-          </td>
-        </tr>
       </tbody></table><table data-module="module-16_60063" mc:repeatable="layout-16" mc:hideable="16" mc:variant="Content-16" data-bgcolor="Main BGS" style="position: relative;opacity: 1;z-index: 0;background-color: rgb(249, 249, 249);max-width: 1000px;top: 0px;left: 0px;max-width: 900px;" align="center" bgcolor="#eceff3" border="0" cellpadding="0" cellspacing="0" width="100%">
         <tbody><tr>
           <td align="center">
@@ -1627,165 +1547,6 @@
                     </tr>
                   </tbody></table>
                   <!-- end left -->
-                </td>
-              </tr>
-            </tbody></table>
-          </td>
-        </tr>
-      </tbody></table><table data-module="module-19_61111" mc:repeatable="layout-19" mc:hideable="19" mc:variant="Content-19" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="position: relative; opacity: 1; z-index: 0; max-width: 900px; background-color: rgba(245, 245, 245, 0.55); top: 0px; left: 0px;">
-        <tbody><tr>
-          <td align="center">
-            <table class="IN-ineer" width="90%" align="center" border="0" cellpadding="0" cellspacing="0">
-              <tbody><tr>
-                <td height="120">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <table class="MOON3-3" width="47%" align="left" border="0" cellpadding="0" cellspacing="0">
-                    <tbody><tr>
-                      <td data-color="Title" data-size="Title" style="font-weight: 900; line-height: 39.15px; font-family: 'Open Sans', Arial, sans-serif; color: rgb(66, 66, 66); font-size: 27px;" align="left">
-                        {{$section_14->title}}
-                      </td>
-                    </tr>
-                    <tr>
-                      <td height="15">
-                      </td>
-                    </tr>
-                    <tr>
-                      <td data-color="Content1" data-size="Content1" style="font-family: 'Open Sans', sans-serif; font-size: 13px; font-weight: 400; color: rgb(168, 168, 168); line-height: 22.1px;" align="left">
-                        {{$section_14->text}}                                      
-                      </td>
-                    </tr>
-                    <tr>
-                      <td height="15">
-                      </td>
-                    </tr>
-                    <tr>
-                      <td height="50">
-                      </td>
-                    </tr>
-                  </tbody></table>
-                  <table border="0" width="47%" align="right" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="MOON3-3">
-                    <tbody><tr>
-                      <td align="left" style="color: #7f8c8d;font-size: 15px;font-family: 'Open Sans', Calibri, sans-serif;font-weight: 400;line-height: 24px;" class="text_color">
-                        <!-- ======= main section button ======= -->
-                        <div class="editable_text" style="line-height: 24px;">
-                          <span class="text_container">
-                          </span>
-                          <multiline>
-                            {{$section_14->skill_1}}                                               
-                          </multiline>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td height="5" style="font-size: 5px; line-height: 5px;">
-                        &nbsp;                                       
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <table border="0" width="100%" align="left" cellpadding="0" cellspacing="0" bgcolor="e7e7e7" class="MOON-600">
-                          <tbody><tr>
-                            <td>
-                              <table border="0" width="{{$section_14->percentage_1}}%" align="left" cellpadding="0" cellspacing="0" class="red_bg" style=" " bgcolor="#ba2c2f">
-                                <tbody><tr>
-                                  <td height="3">
-                                  </td>
-                                </tr>
-                              </tbody></table>
-                            </td>
-                          </tr>
-                        </tbody></table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td height="25" style="font-size: 25px; line-height: 25px;">
-                        &nbsp;                                       
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="left" style="color: #7f8c8d;font-size: 15px;font-family: 'Open Sans', Calibri, sans-serif;font-weight: 400;line-height: 24px;" class="text_color">
-                        <!-- ======= main section button ======= -->
-                        <div class="editable_text" style="line-height: 24px;">
-                          <span class="text_container">
-                          </span>
-                          <multiline>
-                            {{$section_14->skill_2}}                                                 
-                          </multiline>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td height="5" style="font-size: 5px; line-height: 5px;">
-                        &nbsp;                                       
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <table border="0" width="100%" align="left" cellpadding="0" cellspacing="0" bgcolor="e7e7e7" class="MOON-600">
-                          <tbody><tr>
-                            <td>
-                              <table border="0" width="{{$section_14->percentage_2}}%" align="left" cellpadding="0" cellspacing="0" bgcolor="#ba2c2f" class="red_bg">
-                                <tbody><tr>
-                                  <td height="3">
-                                  </td>
-                                </tr>
-                              </tbody></table>
-                            </td>
-                          </tr>
-                        </tbody></table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td height="25" style="font-size: 25px; line-height: 25px;">
-                        &nbsp;                                       
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="left" style="color: #7f8c8d;font-size: 15px;font-family: 'Open Sans', Calibri, sans-serif;line-height: 24px;" class="text_color">
-                        <!-- ======= main section button ======= -->
-                        <div class="editable_text" style="line-height: 24px;">
-                          <span class="text_container">
-                          </span>
-                          <multiline>
-                          {{$section_14->skill_3}}                                                 
-                          </multiline>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td height="5" style="font-size: 5px; line-height: 5px;">
-                        &nbsp;                                       
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <table border="0" width="100%" align="left" cellpadding="0" cellspacing="0" bgcolor="e7e7e7" class="MOON-600">
-                          <tbody><tr>
-                            <td>
-                              <table border="0" width="{{$section_14->percentage_3}}%" align="left" cellpadding="0" cellspacing="0" bgcolor="#ba2c2f" class="red_bg">
-                                <tbody><tr>
-                                  <td height="3">
-                                  </td>
-                                </tr>
-                              </tbody></table>
-                            </td>
-                          </tr>
-                        </tbody></table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td height="25" style="font-size: 25px; line-height: 25px;">
-                        &nbsp;                                       
-                      </td>
-                    </tr>
-                  </tbody></table>
-                </td>
-              </tr>
-              <tr>
-                <td height="80">
                 </td>
               </tr>
             </tbody></table>
@@ -2192,45 +1953,7 @@
           </td>
         </tr>
       </tbody></table>
-      <table data-module="module-42_54952" mc:repeatable="layout-42" mc:hideable="42" mc:variant="Content-42" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="position: relative; opacity: 1; z-index: 0; max-width: 900px; top: 0px; left: 0px;">
-        <tbody><tr>
-          <td align="center">
-            <table class="Moon-600" width="610" align="center" border="0" cellpadding="0" cellspacing="0">
-              <tbody><tr>
-                <td height="80">
-                </td>
-              </tr>
-              <tr>
-                <td style="display:flex;justify-content:center;">
-                @foreach($logos as $logo)
-                  <table class="moon3-3" width="110" align="left" border="0" cellpadding="0" cellspacing="0">
-                    <tbody><tr>
-                      <td align="center">
-                        <img src="{{URL::to('/').'/'.$logo->logo}}" alt="img" width="110" height="60">
-                      </td>
-                    </tr>
-                  </tbody></table>
-                  <!-- SPACE -->
-                  <table width="12" height="40" align="left" border="0" cellpadding="0" cellspacing="0">
-                    <tbody><tr>
-                      <td height="40" style="line-height: 0;">
-                        &nbsp;                                       
-                      </td>
-                    </tr>
-                  </tbody></table>
-                  <!-- SPACE -->
-                  @endforeach
-                  
-                </td>
-              </tr>
-              <tr>
-                <td height="80">
-                </td>
-              </tr>
-            </tbody></table>
-          </td>
-        </tr>
-      </tbody></table><table data-module="module-43_21203" mc:repeatable="layout-43" mc:hideable="43" mc:variant="Content-43" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="position: relative;opacity: 1;z-index: 0;top: 0px;left: 0px;max-width: 1000px;background-color: rgb(249, 249, 249);" data-bgcolor="Background">
+      <table data-module="module-43_21203" mc:repeatable="layout-43" mc:hideable="43" mc:variant="Content-43" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="position: relative;opacity: 1;z-index: 0;top: 0px;left: 0px;max-width: 1000px;background-color: rgb(249, 249, 249);" data-bgcolor="Background">
         <tbody><tr>
           <td align="center">
             <table class="Moon-600" width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
