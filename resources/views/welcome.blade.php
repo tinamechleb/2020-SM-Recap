@@ -1662,10 +1662,10 @@
                   </tbody></table>
                 </td>
               </tr>
-              <tr>
+              <tr style="justify-content: center;display: flex;">
                 <td>
                   <table style="margin: 0 auto; border-collaps:collaps;" class="Moon-600" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
-                    <tbody><tr style="justify-content: center;display: flex;">
+                    <tbody><tr>
                       <td>
                         <table style="border-collaps:collaps;" class="Moon-600" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
                           <tbody><tr>
