@@ -953,7 +953,7 @@
                     </tr>
                     <!-- title -->
                     <tr>
-                      <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link1" data-color="Headline1" data-size="Headline1" align="center" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: #000; font-size: 16px; font-weight: 400; line-height: 27.2px;display: flex;justify-content: center;width: 100vw;">
+                      <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link1" data-color="Headline1" data-size="Headline1" align="center" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: #d8d8d8; font-size: 16px; font-weight: 400; line-height: 27.2px;display: flex;justify-content: center;width: 100%;">
                         <multiline>
                           {{$section_6->title}}                                            
                         </multiline>
@@ -966,7 +966,7 @@
                     </tr>
                     <!-- content -->
                     <tr>
-                      <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link2" data-color="Mains Text2" data-size="Main Text2" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: #000; font-size: 21px; font-weight: 100; line-height: 35.7px;display: flex;justify-content: center;width: 100vw;">
+                      <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link2" data-color="Mains Text2" data-size="Main Text2" align="center" style="font-family: 'Open Sans', Arial, sans-serif; color: #000; font-size: 21px; font-weight: 100; line-height: 35.7px;display: flex;justify-content: center;width: 100%;">
                         <multiline>
                         {{$section_6->text}}                                        
                         </multiline>
@@ -977,7 +977,7 @@
                       <td height="15">
                       </td>
                     </tr>
-                    <tr align="center" style="display:grid;width:100vw;">
+                    <tr align="center" style="display:grid;width:100%;">
                       <td>
                         <a href="{{$section_6->button_link}}" style="color: #ba2c2f; font-size: 13px; line-height: 22.1px; font-weight: 400;" data-color="Text Link" data-size="Main Text3">
                         <table class="MOON-inner" width="25%" border="0" align="center" cellpadding="0" cellspacing="0">
