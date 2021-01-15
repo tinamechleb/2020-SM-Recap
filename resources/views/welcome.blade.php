@@ -945,7 +945,7 @@
           <td align="center">
             <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
               <tbody><tr>
-                <td data-bgcolor="Main 1" align="center" valign="top" bgcolor="#333" style="background-color: #ba2c2f; background-size: cover; background-position: 50% 50%;">
+                <td data-bgcolor="Main 1" align="center" valign="top" bgcolor="#333" style="background-color: #8e2325; background-size: cover; background-position: 50% 50%;">
                   <table class="MOON-600" width="600" align="center" border="0" cellpadding="0" cellspacing="0">
                     <tbody><tr>
                       <td height="80">
@@ -2108,7 +2108,7 @@
             </tbody></table>
           </td>
         </tr>
-      </tbody></table><table data-module="module-25_72024" mc:repeatable="layout-25" mc:hideable="25" mc:variant="Content-25" data-bgcolor="Main BGS1" align="center" bgcolor="#eceff3" width="100%" border="0" cellspacing="0" cellpadding="0" style="position: relative;opacity: 1;z-index: 0;background-color: rgb(255, 255, 255);max-width: 1000px;max-width: 900px;">
+      </tbody></table><table data-module="module-25_72024" mc:repeatable="layout-25" mc:hideable="25" mc:variant="Content-25" data-bgcolor="Main BGS1" align="center" bgcolor="#eceff3" width="100%" border="0" cellspacing="0" cellpadding="0" style="position: relative;opacity: 1;z-index: 0;background-color: #F9F9F9;max-width: 1000px;max-width: 900px;">
         <tbody><tr>
           <td align="center">
             <table align="center" class="Moon-600" width="100%" border="0" cellspacing="0" cellpadding="0">
