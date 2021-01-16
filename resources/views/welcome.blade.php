@@ -1702,7 +1702,7 @@
                                                 <table style="border-collaps:collaps;" border="0" cellpadding="0" cellspacing="0" width="100%">
                                                   <tbody><tr>
                                                     <td style="display: flex;align-items: center;">
-                                                      <table class="moon3-3" style="margin: 0 auto; border-collaps:collaps; clear:none;" align="left" border="0" cellpadding="0" cellspacing="0" width="193">
+                                                      <table class="moon3-3" style="margin: 0 auto; border-collaps:collaps; clear:none;" align="left" border="0" cellpadding="0" cellspacing="0" width="">
                                                         <tbody><tr>
                                                           <td style="line-height:0;">
                                                             <a href="{{$projects[4]->link}}" style="display: block; line-height: 0; color: #ba2c2f;">
@@ -1717,7 +1717,7 @@
                                                           </td>
                                                         </tr>
                                                       </tbody></table>
-                                                      <table class="moon3-3" style="margin: 0 auto; border-collaps:collaps; clear:none;" align="right" border="0" cellpadding="0" cellspacing="0" width="193">
+                                                      <table class="moon3-3" style="margin: 0 auto; border-collaps:collaps; clear:none;" align="right" border="0" cellpadding="0" cellspacing="0" width="">
                                                         <tbody><tr>
                                                           <td style="line-height:0;">
                                                             <a href="{{$projects[2]->link}}" style="display: block; line-height: 0; color: #ba2c2f;">
@@ -1744,13 +1744,13 @@
                                   </td>
                                 </tr>
                               </tbody></table>
-                              <table style="margin: 0 auto; border-collaps:collaps;" class="moon3-3" align="left" border="0" cellpadding="0" cellspacing="0" width="193">
+                              <table style="margin: 0 auto; border-collaps:collaps;" class="moon3-3" align="left" border="0" cellpadding="0" cellspacing="0" width="">
                                 <tbody><tr>
                                   <td>
                                     <table style="border-collaps:collaps;" border="0" cellpadding="0" cellspacing="0" width="100%">
                                       <tbody><tr>
-                                        <td style="display: flex;align-items: center;justify-content: center;margin-top: -19px;">
-                                          <table class="tahalf2" style="margin: 0 auto; border-collaps:collaps; clear:none;" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <td style="display: flex;">
+                                          <table class="tahalf2" style="margin: 0 auto; border-collaps:collaps; clear:none;" align="left" border="0" cellpadding="0" cellspacing="0" width="48%">
                                             <tbody><tr>
                                               <td class="block" style="line-height:0;">
                                                 <a href="{{$projects[0]->link}}" style="display: block; line-height: 0; color: #ba2c2f;">
@@ -1765,7 +1765,7 @@
                                               </td>
                                             </tr>
                                           </tbody></table>
-                                          <table class="tahalf2" style="margin: 0 auto; border-collaps:collaps; clear:none;" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                          <table class="tahalf2" style="margin: 0 auto; border-collaps:collaps; clear:none;" align="left" border="0" cellpadding="0" cellspacing="0" width="49%">
                                             <tbody><tr>
                                               <td class="block" style="line-height:0;">
                                                 <a href="{{$projects[1]->link}}" style="display: block; line-height: 0; color: #ba2c2f;">
