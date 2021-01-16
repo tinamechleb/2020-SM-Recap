@@ -113,7 +113,7 @@
           }
           /* Image */img[class="img1"] {
             width: 100% !important;
-            height: auto !important;
+            /* height: auto !important; */
           }
           .widthresp {
             width: 100vw!important;
