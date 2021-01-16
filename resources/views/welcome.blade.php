@@ -1116,7 +1116,7 @@
           <td align="center">
             <table class="MOON-600" width="90%" border="0" align="center" cellpadding="0" cellspacing="0" style="/* max-width: 900px; */">
               <tbody><tr>
-                <td data-bgcolor="Box Color" align="center" bgcolor="#fff" style="background-color: rgb(255, 255, 255);">
+                <td data-bgcolor="Box Color" align="center" bgcolor="#fff" style="background-color: rgb(255, 255, 255);align-items: center;display: flex;">
                   <!-- img -->
                   <table align="left" class="MOON3-3" width="50%" border="0" cellspacing="0" cellpadding="0">
                     <tbody><tr>
