@@ -1702,7 +1702,7 @@
                                                 <table style="border-collaps:collaps;" border="0" cellpadding="0" cellspacing="0" width="100%">
                                                   <tbody><tr>
                                                     <td style="display: flex;align-items: center;">
-                                                      <table class="moon3-3" style="margin: 0 auto; border-collaps:collaps; clear:none;" align="left" border="0" cellpadding="0" cellspacing="0" width="">
+                                                      <table class="moon3-3" style="margin: 0 auto; border-collaps:collaps; clear:none;" align="left" border="0" cellpadding="0" cellspacing="0" width="48%">
                                                         <tbody><tr>
                                                           <td style="line-height:0;">
                                                             <a href="{{$projects[4]->link}}" style="display: block; line-height: 0; color: #ba2c2f;">
@@ -1717,7 +1717,7 @@
                                                           </td>
                                                         </tr>
                                                       </tbody></table>
-                                                      <table class="moon3-3" style="margin: 0 auto; border-collaps:collaps; clear:none;" align="right" border="0" cellpadding="0" cellspacing="0" width="">
+                                                      <table class="moon3-3" style="margin: 0 auto; border-collaps:collaps; clear:none;" align="right" border="0" cellpadding="0" cellspacing="0" width="49%">
                                                         <tbody><tr>
                                                           <td style="line-height:0;">
                                                             <a href="{{$projects[2]->link}}" style="display: block; line-height: 0; color: #ba2c2f;">
