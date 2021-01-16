@@ -2029,7 +2029,7 @@
         </tr>
         <tr>
           <td align="center">
-            <table class="MOON-inner" width="85%" align="center" border="0" cellpadding="0" cellspacing="0">
+            <table class="MOON-inner" width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
               <tbody><tr>
                 <td>
                   <table class="MOON3-3" width="50%" align="left" border="0" cellpadding="0" cellspacing="0">
@@ -2066,10 +2066,10 @@
                   </tbody></table>
                   <!-- SPACE -->
                   <!-- SPACE -->
-                  <table class="MOON3-3" width="280px" align="right" border="0" cellpadding="0" cellspacing="0">
+                  <table class="MOON3-3" width="" align="right" border="0" cellpadding="0" cellspacing="0">
                     <tbody><tr>
                       <td data-color="Featurex1" data-size="Featurex1" align="left" style="font-family: 'Open Sans', Arial, sans-serif;font-size: 16px;font-weight: 400;color: rgb(0, 0, 0);line-height: 27.2px;">
-                        <img style="display:block; font-size:0px; line-height:0px; border:0px;" src="{{URL::to('/').'/'.$settings->slogan}}" width="370" alt="img">
+                        <img style="display:block; font-size:0px; line-height:0px; border:0px;" src="{{URL::to('/').'/'.$settings->slogan}}" width="100%" alt="img">
                       </td>
                     </tr>
                     <tr>
