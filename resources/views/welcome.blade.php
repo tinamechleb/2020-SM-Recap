@@ -1619,11 +1619,11 @@
             </tbody></table>
           </td>
         </tr>
-      </tbody></table><table data-module="module-23_28392" mc:repeatable="layout-23" mc:hideable="23" mc:variant="Content-23" style="max-width: 900px;position: relative;opacity: 1;z-index: 0;background-color: #F9F9F9;/* max-width: 1000px; */" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="Moon-600">
+      </tbody></table><table data-module="module-23_28392" mc:repeatable="layout-23" mc:hideable="23" mc:variant="Content-23" style="max-width: 900px;position: relative;opacity: 1;z-index: 0;background-color: #F9F9F9;/* max-width: 1000px; */" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="">
         <!-- Start Works -->
         <tbody><tr>
-          <td data-border-bottom-color="Divider" style="border-bottom-width: 0px; border-bottom-style: none; border-bottom-color: rgb(184, 184, 184);" class="Moon-600">
-            <table style="margin: 0 auto; border-collaps:collaps;width:100%;" class="moon3-3" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+          <td data-border-bottom-color="Divider" style="border-bottom-width: 0px; border-bottom-style: none; border-bottom-color: rgb(184, 184, 184);" class="">
+            <table style="margin: 0 auto; border-collaps:collaps;width:100%;" class="moon3-3" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
               <tbody style="width: 100%;display: flex;flex-direction:column;justify-content:center;"><tr>
                 <td align="center" style="width: 100%;display: flex;">
                   <table border="0" align="center" cellpadding="0" cellspacing="0" width="100%" class="Moon-inner" style="width: 100%;justify-content: center;display: flex;">
@@ -1667,10 +1667,10 @@
               </tr>
               <tr style="justify-content: center;display: flex;">
                 <td>
-                  <table style="margin: 0 auto; border-collaps:collaps;" class="Moon-600" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+                  <table style="margin: 0 auto; border-collaps:collaps;" class="" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tbody><tr>
                       <td>
-                        <table style="border-collaps:collaps;" class="Moon-600" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <table style="border-collaps:collaps;" class="" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
                           <tbody><tr>
                             <td style="display:grid;">
                               <table style="margin: 0 auto; border-collaps:collaps;" class="moon3-3" align="left" border="0" cellpadding="0" cellspacing="0" width="396">
