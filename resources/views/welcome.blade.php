@@ -1073,13 +1073,13 @@
       </tbody></table>
       <table data-module="module-10_32076" mc:repeatable="layout-10" mc:hideable="10" mc:variant="Content-10" data-bg="a2" style="position: relative; opacity: 1; z-index: 0; background-image: url('{{URL::to('/').'/'.$section_7->background_image}}'); background-size: cover; background-position: 50% 40%; max-width: 1000px; top: 0px; left: 0px;" bgcolor="#f3f4f9" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="{{URL::to('/').'/'.$section_7->background_image}}">
         <tbody><tr>
-          <td class="MOON-600" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="/* background-color: rgba(0, 0, 0, 0.19); */background-size: cover;">
-            <table cellspacing="0" cellpadding="0" align="left" border="0" width="440" class="MOON-600">
+          <td class="" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="/* background-color: rgba(0, 0, 0, 0.19); */background-size: cover;">
+            <table cellspacing="0" cellpadding="0" align="left" border="0" width="440" class="">
               <!-- img -->
               <tbody><tr>
                 <td>
                   <!-- left -->
-                  <table class="MOON3-3" width="310" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <table class="" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
                     <tbody><tr>
                       <td height="100">
                       </td>
