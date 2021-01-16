@@ -929,7 +929,7 @@
         </tr>
         <tr>
           <td align="center">
-            <table class="Moon-inner widthresp" width="600" border="0" align="center" cellpadding="0" cellspacing="0" style="width: 100%;">
+            <table class="Moon-inner widthresp" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="width: 100%;">
             </table>
           </td>
         </tr>
@@ -939,7 +939,7 @@
             <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
               <tbody><tr>
                 <td data-bgcolor="Main 1" align="center" valign="top" bgcolor="#333" style="background-color: #8e2325; background-size: cover; background-position: 50% 50%;">
-                  <table class="MOON-600" width="600" align="center" border="0" cellpadding="0" cellspacing="0">
+                  <table class="" width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
                     <tbody><tr>
                       <td height="80">
                       </td>
