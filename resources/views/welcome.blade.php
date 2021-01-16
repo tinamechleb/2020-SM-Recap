@@ -1558,13 +1558,13 @@
       </tbody></table>
       <table data-module="module-21_66611" mc:repeatable="layout-21" mc:hideable="21" mc:variant="Content-21" data-bg="F08" style="position: relative; opacity: 1; z-index: 0; max-width: 900px; background-image: url('{{URL::to('/').'/'.$section_15->background_image}}'); background-size: cover; background-position: 50% 40%;" bgcolor="#f3f4f9" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="{{URL::to('/').'/'.$section_15->background_image}}">
         <tbody><tr>
-          <td bgcolor="#3498db" class="Moon-600" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="background-color: rgba(0, 0, 0, 0);background-size: cover;justify-content: center;display: flex;}">
-            <table cellspacing="0" cellpadding="0" align="left" border="0" width="100%" class="Moon-600">
+          <td bgcolor="#3498db" class="" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="background-color: rgba(0, 0, 0, 0);background-size: cover;justify-content: center;display: flex;}">
+            <table cellspacing="0" cellpadding="0" align="left" border="0" width="100%" class="">
               <!-- img -->
               <tbody><tr>
                 <td>
                   <!-- left -->
-                  <table class="Moon3-3" width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <table class="Moon3-3" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
                     <tbody><tr>
                       <td height="100">
                       </td>
