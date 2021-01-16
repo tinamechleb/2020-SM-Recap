@@ -1906,14 +1906,14 @@
                             </td>
                           </tr>
                           <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link 7a" data-color="Mains Text 7a" data-size="Main Text 7a" align="left" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(171, 171, 171); font-size: 18px; font-weight: 100; padding: 0px 10px; line-height: 26.1px;">
+                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="Content Link 7a" data-color="Mains Text 7a" data-size="Main Text 7a" align="left" style="font-family: 'Open Sans', Arial, sans-serif; color: rgb(171, 171, 171); font-size: 18px; font-weight: 100; padding: 0px 8px; line-height: 26.1px;">
                               <multiline>
                                 {{$member->name}}                                                      
                               </multiline>
                             </td>
                           </tr>
                           <tr>
-                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="1a Content Link" data-color="1a Headline" data-size="1Headline" align="left" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: #ba2c2f; font-size: 14px; font-weight: 400; padding: 0px 10px; line-height: 23.8px;">
+                            <td data-link-style="text-decoration:none; color:#3498db;" data-link-color="1a Content Link" data-color="1a Headline" data-size="1Headline" align="left" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: #ba2c2f; font-size: 14px; font-weight: 400; padding: 0px 8px; line-height: 23.8px;">
                               <singleline>
                                 {{$member->title}}   
                               </singleline>
