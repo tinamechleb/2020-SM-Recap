@@ -1252,7 +1252,7 @@
                     <tr>
                       <td>
                         <!-- left -->
-                        <table class="moon3-3" align="left" border="0" cellpadding="0" cellspacing="0" width="32.5%">
+                        <table class="moon3-3" align="left" border="0" cellpadding="0" cellspacing="0" width="49%">
                           <!-- img -->
                           <tbody><tr>
                             <td style="line-height:0px;" align="center">
@@ -1277,7 +1277,7 @@
                         </tbody></table>
                         <!--End Space-->
                         <!-- middle -->
-                        <table class="moon3-3" align="left" border="0" cellpadding="0" cellspacing="0" width="32.5%">
+                        <table class="moon3-3" align="left" border="0" cellpadding="0" cellspacing="0" width="49%">
                           <!-- img -->
                           <tbody><tr>
                             <td style="line-height:0px;" align="center">
@@ -1302,7 +1302,7 @@
                         </tbody></table>
                         <!--End Space-->
                         <!-- right -->
-                        <table class="moon3-3" align="left" border="0" cellpadding="0" cellspacing="0" width="32.5%">
+                        <table class="moon3-3" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
                           <!-- img -->
                           <tbody><tr>
                             <td height="40">
