@@ -1444,7 +1444,7 @@
                     <tr>
                       <td>
                         <!-- left -->
-                        <table class="MOON-600" cellspacing="0" cellpadding="0" align="left" border="0" width="30%">
+                        <table class="MOON-600" cellspacing="0" cellpadding="0" align="left" border="0" width="49%">
                           <tbody><tr>
                             <td class="MOON3-3" style="color: rgb(64, 62, 62);font-family: Montserrat, sans-serif;font-size: 21px;font-weight: 700;line-height: 25px;text-align: left;" align="center" data-size="Main Text 5a" data-color="Mains Text 5a" data-link-color="Content Link 5a" data-link-style="text-decoration:none; color:#3498db;">
                               <multiline>
@@ -1487,7 +1487,7 @@
                             </td>
                           </tr>
                         </tbody></table>
-                        <table width="65%" border="0" align="right" cellpadding="0" cellspacing="0" class="MOON3-3">
+                        <table width="50%" border="0" align="right" cellpadding="0" cellspacing="0" class="MOON3-3">
                           <!-- img -->
                           <tbody><tr>
                             <td data-bgcolor="Main" data-bg="Background Gd" align="center" valign="top" bgcolor="#333" background="{{URL::to('/').'/'.$section_13->image_2}}" style="background-image: url('{{URL::to('/').'/'.$section_13->image_2}}'); background-color: rgb(233, 47, 74); background-size: cover; background-position: 50% 50%;">
